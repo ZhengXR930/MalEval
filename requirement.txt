@@ -1,0 +1,15 @@
+requests
+beautifulsoup4
+markdownify
+readability-lxml
+Pillow
+PyMuPDF
+tqdm
+androguard
+loguru
+networkx
+openai
+tiktoken
+transformers
+google-generativeai
+google-cloud-aiplatform

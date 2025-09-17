@@ -1,0 +1,200 @@
+{
+  "0a8570bcc1c6414854477c2ac0acfeb10ea6a613e610da3c6c9b2f7af0614fe6": {
+    "type": "banker",
+    "family": "coper",
+    "url": "https://labs.k7computing.com/index.php/android-banking-trojan-octov2-masquerading-as-deepseek-ai/",
+    "sha256": "0a8570bcc1c6414854477c2ac0acfeb10ea6a613e610da3c6c9b2f7af0614fe6"
+  },
+  "0e8569ec252caf58f72c43358472f22786cd32685d23c882b4b2e38409cf2e47": {
+    "type": "banker",
+    "family": "Tsarbot",
+    "url": "https://cyble.com/blog/tsarbot-using-overlay-attacks-targeting-bfsi-sector/",
+    "sha256": "0e8569ec252caf58f72c43358472f22786cd32685d23c882b4b2e38409cf2e47"
+  },
+  "2cc727c4249235f36bbc5024d5a5cb708c0f6d3659151afc5ae5d42d55212cb5": {
+    "type": "banker",
+    "family": "Ermac",
+    "url": "https://cyble.com/blog/ermac-back-in-action/",
+    "sha256": "2cc727c4249235f36bbc5024d5a5cb708c0f6d3659151afc5ae5d42d55212cb5"
+  },
+  "3fb083a248e44dce1aa67926d0fe42542822c57e19921cb566e1e85a5284dde2": {
+    "type": "spyware",
+    "family": "spynote",
+    "url": "https://dti.domaintools.com/newly-registered-domains-distributing-spynote-malware/",
+    "sha256": "3fb083a248e44dce1aa67926d0fe42542822c57e19921cb566e1e85a5284dde2"
+  },
+  "6b36db89f73ed1965b7cd40f5aadd0b02c4e14cc19fa2c5b480209f8754791f8": {
+    "type": "rootkit",
+    "family": "Vo1d1",
+    "url": "https://news.drweb.com/show/?i=14900",
+    "sha256": "6b36db89f73ed1965b7cd40f5aadd0b02c4e14cc19fa2c5b480209f8754791f8"
+  },
+  "6fc672288e68146930b86c7a3d490f551c8d7a7e8ba3229d64a6280118095bea": {
+    "type": "banker",
+    "family": "BlankBot",
+    "url": "https://intel471.com/blog/blankbot-a-new-android-banking-trojan-with-screen-recording-keylogging-and-remote-control-capabilities",
+    "sha256": "6fc672288e68146930b86c7a3d490f551c8d7a7e8ba3229d64a6280118095bea"
+  },
+  "7d5b6bcc9b93aedc540e76059ee27841a96acb9ea74a51545dfef18b0fcf5b57": {
+    "type": "banker",
+    "family": "BlankBot",
+    "url": "https://intel471.com/blog/blankbot-a-new-android-banking-trojan-with-screen-recording-keylogging-and-remote-control-capabilities",
+    "sha256": "7d5b6bcc9b93aedc540e76059ee27841a96acb9ea74a51545dfef18b0fcf5b57"
+  },
+  "8d2e3f46c71ba5f3dcb4e7a0359693765bf4d8e0152ad82906c42d9f7573c88f": {
+    "type": "banker",
+    "family": "Tsarbot",
+    "url": "https://cyble.com/blog/tsarbot-using-overlay-attacks-targeting-bfsi-sector/",
+    "sha256": "8d2e3f46c71ba5f3dcb4e7a0359693765bf4d8e0152ad82906c42d9f7573c88f"
+  },
+  "28fef58c7817926cf7dc0f44e92c1e6716d125b2675e753d415dafe8e7094b37": {
+    "type": "spyware",
+    "family": "SpyMax",
+    "url": "https://www.mobile-hacker.com/2025/06/05/analysis-of-spyware-that-helped-to-compromise-a-syrian-army-from-within/#google_vignette",
+    "sha256": "28fef58c7817926cf7dc0f44e92c1e6716d125b2675e753d415dafe8e7094b37"
+  },
+  "39cb17cb03a794e69eb4f0694e90e41a8cfb8480b82da82fcbd4a88dfe49930d": {
+    "type": "spyware",
+    "family": "PlainGnome",
+    "url": "https://www.lookout.com/threat-intelligence/article/gamaredon-russian-android-surveillanceware",
+    "sha256": "39cb17cb03a794e69eb4f0694e90e41a8cfb8480b82da82fcbd4a88dfe49930d"
+  },
+  "60ca970a774c5ff1ada52170857989721158064b932e999714bff7f4bd8b570c": {
+    "type": "spyware",
+    "family": "SpyMax",
+    "url": "https://www.mobile-hacker.com/2025/06/05/analysis-of-spyware-that-helped-to-compromise-a-syrian-army-from-within/#google_vignette",
+    "sha256": "60ca970a774c5ff1ada52170857989721158064b932e999714bff7f4bd8b570c"
+  },
+  "73a6ae8331cd01dd59b8c526df2a90771dcf9d74048dc7ea51d75a3beacbd95b": {
+    "type": "banker",
+    "family": "Tsarbot",
+    "url": "https://cyble.com/blog/tsarbot-using-overlay-attacks-targeting-bfsi-sector/",
+    "sha256": "73a6ae8331cd01dd59b8c526df2a90771dcf9d74048dc7ea51d75a3beacbd95b"
+  },
+  "83eea636c3f04ff1b46963680eb4bac7177e77bbc40b0d3426f5cf66a0c647ae": {
+    "type": "banker",
+    "family": "coper",
+    "url": "https://www.threatfabric.com/blogs/octo2-european-banks-already-under-attack-by-new-malware-variant",
+    "sha256": "83eea636c3f04ff1b46963680eb4bac7177e77bbc40b0d3426f5cf66a0c647ae"
+  },
+  "332d7af6913e3527547f92e3a36a2f34033a673e41427d3d55c1957d5c9b0fd3": {
+    "type": "rootkit",
+    "family": "Vo1d1",
+    "url": "https://news.drweb.com/show/?i=14900",
+    "sha256": "332d7af6913e3527547f92e3a36a2f34033a673e41427d3d55c1957d5c9b0fd3"
+  },
+  "893b2adb8f17b36d0e451fef96818e499eeab5b4f7c4a4aa93b6dede1e308352": {
+    "type": "rootkit",
+    "family": "Vo1d1",
+    "url": "https://news.drweb.com/show/?i=14900",
+    "sha256": "893b2adb8f17b36d0e451fef96818e499eeab5b4f7c4a4aa93b6dede1e308352"
+  },
+  "957df5b8998780c50ee630ad70926bdd4ee83748ee89c3a7916e8eace9b95d88": {
+    "type": "banker",
+    "family": "Tsarbot",
+    "url": "https://cyble.com/blog/tsarbot-using-overlay-attacks-targeting-bfsi-sector/",
+    "sha256": "957df5b8998780c50ee630ad70926bdd4ee83748ee89c3a7916e8eace9b95d88"
+  },
+  "8407fed605805f0e7ef9628767d0aff1014e7231549b09f3c0d0cb723f07c48a": {
+    "type": "spyware",
+    "family": "PlainGnome",
+    "url": "https://www.lookout.com/threat-intelligence/article/gamaredon-russian-android-surveillanceware",
+    "sha256": "8407fed605805f0e7ef9628767d0aff1014e7231549b09f3c0d0cb723f07c48a"
+  },
+  "ad9044d9762453e2813be8ab96b9011efb2f42ab72a0cb26d7f98b9bd1d65965": {
+    "type": "banker",
+    "family": "BlankBot",
+    "url": "https://intel471.com/blog/blankbot-a-new-android-banking-trojan-with-screen-recording-keylogging-and-remote-control-capabilities",
+    "sha256": "ad9044d9762453e2813be8ab96b9011efb2f42ab72a0cb26d7f98b9bd1d65965"
+  },
+  "b4b4b195e14e9fda5a6d890ddb57f93ef81d6d9a976078354450ee45d18c89e3": {
+    "type": "banker",
+    "family": "BlankBot",
+    "url": "https://intel471.com/blog/blankbot-a-new-android-banking-trojan-with-screen-recording-keylogging-and-remote-control-capabilities",
+    "sha256": "b4b4b195e14e9fda5a6d890ddb57f93ef81d6d9a976078354450ee45d18c89e3"
+  },
+  "c5e3edafdfda1ca0f0554802bbe32a8b09e8cc48161ed275b8fec6d74208171f": {
+    "type": "banker",
+    "family": "Crocodilus",
+    "url": "https://www.threatfabric.com/blogs/exposing-crocodilus-new-device-takeover-malware-targeting-android-devices",
+    "sha256": "c5e3edafdfda1ca0f0554802bbe32a8b09e8cc48161ed275b8fec6d74208171f"
+  },
+  "c55ce2239e6c528dac9f0e2337d778e384e8bfb8af8467fe75f65e79e6bce1fe": {
+    "type": "spyware",
+    "family": "spynote",
+    "url": "https://dti.domaintools.com/newly-registered-domains-distributing-spynote-malware/",
+    "sha256": "c55ce2239e6c528dac9f0e2337d778e384e8bfb8af8467fe75f65e79e6bce1fe"
+  },
+  "c82aa80d45022ae7f009e82586e34f990288625c1c876c85e07df74ab3136450": {
+    "type": "spyware",
+    "family": "SpyMax",
+    "url": "https://www.mobile-hacker.com/2025/06/05/analysis-of-spyware-that-helped-to-compromise-a-syrian-army-from-within/#google_vignette",
+    "sha256": "c82aa80d45022ae7f009e82586e34f990288625c1c876c85e07df74ab3136450"
+  },
+  "ce6e5838f3ada452b64ffc6261e9bf74479bd31e83f77c7409c89564846db6a3": {
+    "type": "spyware",
+    "family": "PlainGnome",
+    "url": "https://www.lookout.com/threat-intelligence/article/gamaredon-russian-android-surveillanceware",
+    "sha256": "ce6e5838f3ada452b64ffc6261e9bf74479bd31e83f77c7409c89564846db6a3"
+  },
+  "d83204a01d3c6f14096f6fe1b59e3f11e8f2c6fb2736792febffb1701fe9a5bc": {
+    "type": "spyware",
+    "family": "SpyMax",
+    "url": "https://www.mobile-hacker.com/2025/06/05/analysis-of-spyware-that-helped-to-compromise-a-syrian-army-from-within/#google_vignette",
+    "sha256": "d83204a01d3c6f14096f6fe1b59e3f11e8f2c6fb2736792febffb1701fe9a5bc"
+  },
+  "db041da97c1f30a6fc7765994b556839f8550774af1662ae0ab105e2fc324487": {
+    "type": "spyware",
+    "family": "SpyMax",
+    "url": "https://www.mobile-hacker.com/2025/06/05/analysis-of-spyware-that-helped-to-compromise-a-syrian-army-from-within/#google_vignette",
+    "sha256": "db041da97c1f30a6fc7765994b556839f8550774af1662ae0ab105e2fc324487"
+  },
+  "f35635ab05a8f0ff2e45a561e9aef6cb766fe62cd3216dc4ab5ca2425c58e1d7": {
+    "type": "banker",
+    "family": "coper",
+    "url": "https://labs.k7computing.com/index.php/android-banking-trojan-octov2-masquerading-as-deepseek-ai/",
+    "sha256": "f35635ab05a8f0ff2e45a561e9aef6cb766fe62cd3216dc4ab5ca2425c58e1d7"
+  },
+  "fc5099e5be818f8268327aaf190cd07b4b4ebb04e9d63eefa5a04ea504f93d62": {
+    "type": "banker",
+    "family": "BlankBot",
+    "url": "https://intel471.com/blog/blankbot-a-new-android-banking-trojan-with-screen-recording-keylogging-and-remote-control-capabilities",
+    "sha256": "fc5099e5be818f8268327aaf190cd07b4b4ebb04e9d63eefa5a04ea504f93d62"
+  },
+  "8d6ca64e4c3c19587405e19d53d0e2f4d52b77f927621d4178a3f7c2bf50c2ea": {
+    "type": "banker",
+    "family": "BlankBot",
+    "url": "https://intel471.com/blog/blankbot-a-new-android-banking-trojan-with-screen-recording-keylogging-and-remote-control-capabilities",
+    "sha256": "8d6ca64e4c3c19587405e19d53d0e2f4d52b77f927621d4178a3f7c2bf50c2ea"
+  },
+  "930ed5d82b1b4968cc903c8615603eaaf7f356c862d706b8ce223a8b71979071": {
+    "type": "rootkit",
+    "family": "Vo1d1",
+    "url": "https://news.drweb.com/show/?i=14900",
+    "sha256": "930ed5d82b1b4968cc903c8615603eaaf7f356c862d706b8ce223a8b71979071"
+  },
+  "b0c0f38551a119d0b633c1b65e61b493574ed7083e3e003c83aa19dff7a0524b": {
+    "type": "spyware",
+    "family": "kospy",
+    "url": "https://www.lookout.com/threat-intelligence/article/lookout-discovers-new-spyware-by-north-korean-apt37",
+    "sha256": "b0c0f38551a119d0b633c1b65e61b493574ed7083e3e003c83aa19dff7a0524b"
+  },
+  "0329be10a5be4350e0d2c15ed265f0f32557d869ce32566a248d4ed3f9a20c16": {
+    "type": "spyware",
+    "family": "kospy",
+    "url": "https://www.lookout.com/threat-intelligence/article/lookout-discovers-new-spyware-by-north-korean-apt37",
+    "sha256": "0329be10a5be4350e0d2c15ed265f0f32557d869ce32566a248d4ed3f9a20c16"
+  },
+  "f3e004f888becd03881cc3685aaf0963ea3cd9872af285849843cba7da732ca7": {
+    "type": "spyware",
+    "family": "kospy",
+    "url": "https://www.lookout.com/threat-intelligence/article/lookout-discovers-new-spyware-by-north-korean-apt37",
+    "sha256": "f3e004f888becd03881cc3685aaf0963ea3cd9872af285849843cba7da732ca7"
+  },
+  "bf0150e1e31f655978a74e126b973f2cbd6555e970130f8fafef25b884cfb442": {
+    "type": "spyware",
+    "family": "kospy",
+    "url": "https://www.lookout.com/threat-intelligence/article/lookout-discovers-new-spyware-by-north-korean-apt37",
+    "sha256": "bf0150e1e31f655978a74e126b973f2cbd6555e970130f8fafef25b884cfb442"
+  }
+}

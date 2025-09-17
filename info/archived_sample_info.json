@@ -1,0 +1,1334 @@
+{
+    "54df8a318b1b910bbf8437fdae2fd027296dffda228f5ef42babce0492c98cca": {
+        "type": "rootkit",
+        "family": "Ztorg",
+        "url": "https://securelist.com/ztorg-money-for-infecting-your-smartphone/78325/",
+        "sha256": "54df8a318b1b910bbf8437fdae2fd027296dffda228f5ef42babce0492c98cca"
+    },
+    "91254c551434590f3ab0707fef0bcb900673d344fa5b910846879ac2f2c49e92": {
+        "type": "adware",
+        "family": "TOASTAMIGO",
+        "url": "https://www.trendmicro.com/en_us/research/17/k/toast-overlay-weaponized-install-android-malware-single-attack-chain.html",
+        "sha256": "91254c551434590f3ab0707fef0bcb900673d344fa5b910846879ac2f2c49e92"
+    },
+    "05b704341befef5c358c7ac99bda808fe2df3e7df67f3d2a11caa40040caf2dd": {
+        "type": "adware",
+        "family": "TOASTAMIGO",
+        "url": "https://www.trendmicro.com/en_us/research/17/k/toast-overlay-weaponized-install-android-malware-single-attack-chain.html",
+        "sha256": "05b704341befef5c358c7ac99bda808fe2df3e7df67f3d2a11caa40040caf2dd"
+    },
+    "41b4dbc8cb144145c9eea8b0e4c9c9da3102ff42500923067ba32a5acfcaa858": {
+        "type": "ransomware",
+        "family": "Simplocker",
+        "url": "https://www.welivesecurity.com/2014/06/25/simplocker-new-variants/",
+        "sha256": "41b4dbc8cb144145c9eea8b0e4c9c9da3102ff42500923067ba32a5acfcaa858"
+    },
+    "2fedbe67d11b51a8a21ebc202caf00fb771e4c4be6dde24387b73d95ea2d9237": {
+        "type": "banker",
+        "family": "Anubis",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/google-play-apps-drop-anubis-banking-malware-use-motion-based-evasion-tactics/",
+        "sha256": "2fedbe67d11b51a8a21ebc202caf00fb771e4c4be6dde24387b73d95ea2d9237"
+    },
+    "a0f3df39d20c4eaa410a61a527507dbc6b17c7f974f76e13181e98225bda0511": {
+        "type": "banker",
+        "family": "Xloader",
+        "url": "https://www.trendmicro.com/en_us/research/19/d/new-version-of-xloader-that-disguises-as-android-apps-and-an-ios-profile-holds-new-links-to-fakespy.html#",
+        "sha256": "a0f3df39d20c4eaa410a61a527507dbc6b17c7f974f76e13181e98225bda0511"
+    },
+    "d3c91d70b028537d275e603bd36a14bc42555f089e5db6d17e3a652ff99ecd0d": {
+        "type": "rootkit",
+        "family": "Ztorg",
+        "url": "https://securelist.com/rooting-pokemons-in-google-play-store/76081/",
+        "sha256": "d3c91d70b028537d275e603bd36a14bc42555f089e5db6d17e3a652ff99ecd0d"
+    },
+    "09e1b08946ed43690ed16d38ca40c71f62336f55f2f9227f1f773706a21b94da": {
+        "type": "trojan",
+        "family": "Necro",
+        "url": "https://gbhackers.com/camscanner-pdf-app/",
+        "sha256": "09e1b08946ed43690ed16d38ca40c71f62336f55f2f9227f1f773706a21b94da"
+    },
+    "53136f6cea9c04cf139c42a0f9b863c87bb1a3114010c324106d85a401fd8caf": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "53136f6cea9c04cf139c42a0f9b863c87bb1a3114010c324106d85a401fd8caf"
+    },
+    "5bff2298944632cc50a17f88ea59acf64e6093f2a4b4cba6841b38ede0f26c3d": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "5bff2298944632cc50a17f88ea59acf64e6093f2a4b4cba6841b38ede0f26c3d"
+    },
+    "026733eb26ff09111ce389b56eaf431271812dfe28b426cb171c722eb41d62d7": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "026733eb26ff09111ce389b56eaf431271812dfe28b426cb171c722eb41d62d7"
+    },
+    "6e5bbedce0f2cffcadf0397282861b8694ad9111fe566da934fc11ee25827f03": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "6e5bbedce0f2cffcadf0397282861b8694ad9111fe566da934fc11ee25827f03"
+    },
+    "8a0f0b791661076332e9da5c7a269a2215585acedff66c75687ff38ef41e7e27": {
+        "type": "trojan",
+        "family": "Necro",
+        "url": "https://gbhackers.com/camscanner-pdf-app/",
+        "sha256": "8a0f0b791661076332e9da5c7a269a2215585acedff66c75687ff38ef41e7e27"
+    },
+    "cde39a1338905b1c0d5a899378c9428a48d6ca01cb55396c03268da939d3dd4a": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "cde39a1338905b1c0d5a899378c9428a48d6ca01cb55396c03268da939d3dd4a"
+    },
+    "1ed647cb7a0f145d2e84fdfc7adc2e865c312dbe574c4ab4298173ec7e9fcab5": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "1ed647cb7a0f145d2e84fdfc7adc2e865c312dbe574c4ab4298173ec7e9fcab5"
+    },
+    "5212b6a8dd17ccfc60f671c82f45f4885e0abcc354da3d007746599f10340774": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "5212b6a8dd17ccfc60f671c82f45f4885e0abcc354da3d007746599f10340774"
+    },
+    "b16a904af7ebeb3b3a9c8fef342c60eab83dfa6867acdbaa6f55c1f06b974123": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "b16a904af7ebeb3b3a9c8fef342c60eab83dfa6867acdbaa6f55c1f06b974123"
+    },
+    "de990c12617f7cd01e2b810bc33af4ae43b6e7c43430f7039252ac93416d5223": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "de990c12617f7cd01e2b810bc33af4ae43b6e7c43430f7039252ac93416d5223"
+    },
+    "16c497c382492c0132d581a4ece0ef0ab6c8ba7b265a9d7b0f6d47d9871d5e06": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "16c497c382492c0132d581a4ece0ef0ab6c8ba7b265a9d7b0f6d47d9871d5e06"
+    },
+    "decb041278048c001142232ae9374d86489a011af922d2f1803eaebe690daca0": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "decb041278048c001142232ae9374d86489a011af922d2f1803eaebe690daca0"
+    },
+    "7682e02105fe576b37d38d3732fdd021b88978a08b466cc82aab357a1fc69f50": {
+        "type": "spyware",
+        "family": "FakeSpy",
+        "url": "https://www.trendmicro.com/en_us/research/18/f/fakespy-android-information-stealing-malware-targets-japanese-and-korean-speaking-users.html",
+        "sha256": "7682e02105fe576b37d38d3732fdd021b88978a08b466cc82aab357a1fc69f50"
+    },
+    "8fff1bf0bfa618b6350da5d99a620c21bd6f88a8711469575aa449a947cf6e96": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "8fff1bf0bfa618b6350da5d99a620c21bd6f88a8711469575aa449a947cf6e96"
+    },
+    "6f20f227f79debfdae32233b59f4dc15c7faf05036b21e8cd46b24ebc52f0bf8": {
+        "type": "banker",
+        "family": "Xloader",
+        "url": "https://www.trendmicro.com/en_us/research/18/d/xloader-android-spyware-and-banking-trojan-distributed-via-dns-spoofing.html",
+        "sha256": "6f20f227f79debfdae32233b59f4dc15c7faf05036b21e8cd46b24ebc52f0bf8"
+    },
+    "ae3f772b12d4c97b4377dfadfe01528411811d22f8708a2b33a10494461ec2e4": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "ae3f772b12d4c97b4377dfadfe01528411811d22f8708a2b33a10494461ec2e4"
+    },
+    "b125ea78fb390950893d146a51f513440314be7648207b59e5d0a1752740f273": {
+        "type": "banker",
+        "family": "Xloader",
+        "url": "https://www.trendmicro.com/en_us/research/18/d/xloader-android-spyware-and-banking-trojan-distributed-via-dns-spoofing.html",
+        "sha256": "b125ea78fb390950893d146a51f513440314be7648207b59e5d0a1752740f273"
+    },
+    "cc2617d7d904986b83baf7843db6969151363000678e8da599edbf6cf23cb827": {
+        "type": "banker",
+        "family": "Xloader",
+        "url": "https://www.trendmicro.com/en_us/research/18/d/xloader-android-spyware-and-banking-trojan-distributed-via-dns-spoofing.html",
+        "sha256": "cc2617d7d904986b83baf7843db6969151363000678e8da599edbf6cf23cb827"
+    },
+    "3c079b47a2129fe6c4b35774a02147de9dd9b28043570fff800318ee75beea7f": {
+        "type": "ransomware",
+        "family": "Simplocker",
+        "url": "https://www.welivesecurity.com/2014/07/22/androidsimplocker/",
+        "sha256": "3c079b47a2129fe6c4b35774a02147de9dd9b28043570fff800318ee75beea7f"
+    },
+    "31f1eb45501a202f226f80e91d63fb239468d24a287fb03a6c4c6acdce029cb9": {
+        "type": "spyware",
+        "family": "Maikspy",
+        "url": "https://www.trendmicro.com/en_us/research/18/e/maikspy-spyware-poses-as-adult-game-targets-windows-and-android-users.html",
+        "sha256": "31f1eb45501a202f226f80e91d63fb239468d24a287fb03a6c4c6acdce029cb9"
+    },
+    "b5c74f1e543015818b4de8b07f4ddfd60e9483f37663e709c241853963051669": {
+        "type": "spyware",
+        "family": "Maikspy",
+        "url": "https://www.trendmicro.com/en_us/research/18/e/maikspy-spyware-poses-as-adult-game-targets-windows-and-android-users.html",
+        "sha256": "b5c74f1e543015818b4de8b07f4ddfd60e9483f37663e709c241853963051669"
+    },
+    "7c17687f4edcc997549b2a5aa32750c51d7586666e4a9e0313eec76948d9cfe3": {
+        "type": "adware",
+        "family": "TOASTAMIGO",
+        "url": "https://www.trendmicro.com/en_us/research/17/k/toast-overlay-weaponized-install-android-malware-single-attack-chain.html",
+        "sha256": "7c17687f4edcc997549b2a5aa32750c51d7586666e4a9e0313eec76948d9cfe3"
+    },
+    "4c0d2cb518a1f224a53f82af4f4fd7a71b0e34788c19a0873bea2d576f4ec35a": {
+        "type": "spyware",
+        "family": "Maikspy",
+        "url": "https://www.trendmicro.com/en_us/research/18/e/maikspy-spyware-poses-as-adult-game-targets-windows-and-android-users.html",
+        "sha256": "4c0d2cb518a1f224a53f82af4f4fd7a71b0e34788c19a0873bea2d576f4ec35a"
+    },
+    "3db0df7b148d6637769acf06510c247bf12ffc05f0d8f9ab6e2deee8bec2d2e3": {
+        "type": "adware",
+        "family": "TOASTAMIGO",
+        "url": "https://www.trendmicro.com/en_us/research/17/k/toast-overlay-weaponized-install-android-malware-single-attack-chain.html",
+        "sha256": "3db0df7b148d6637769acf06510c247bf12ffc05f0d8f9ab6e2deee8bec2d2e3"
+    },
+    "bc0b9bcaddce6ef5a0bab3ba1b278de110e00f8f8a1cf1c64e782740b0bc2f6d": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "bc0b9bcaddce6ef5a0bab3ba1b278de110e00f8f8a1cf1c64e782740b0bc2f6d"
+    },
+    "c83cc0a54946cac985327ea3b49adafaceacbb9a5a2b1384708dd8d856e52d39": {
+        "type": "spyware",
+        "family": "Maikspy",
+        "url": "https://www.trendmicro.com/en_us/research/18/e/maikspy-spyware-poses-as-adult-game-targets-windows-and-android-users.html",
+        "sha256": "c83cc0a54946cac985327ea3b49adafaceacbb9a5a2b1384708dd8d856e52d39"
+    },
+    "67f0889c5b2aa479621a581cb63c95649cd9a04baaa264da0122fac072c7624c": {
+        "type": "banker",
+        "family": "Faketoken",
+        "url": "https://securelist.com/the-banker-that-encrypted-files/76913/",
+        "sha256": "67f0889c5b2aa479621a581cb63c95649cd9a04baaa264da0122fac072c7624c"
+    },
+    "f3a85e6f0384d8657b086f5793bb4daf1a9770a810187065e7023f615875439c": {
+        "type": "spyware",
+        "family": "SpyMax",
+        "url": "https://blog.lookout.com/commercial-surveillanceware-operators-latest-to-take-advantage-of-covid-19",
+        "sha256": "f3a85e6f0384d8657b086f5793bb4daf1a9770a810187065e7023f615875439c"
+    },
+    "107169ae6951a5cba57d2a0cd274e28fadf5c73d73e91a386f15cf4dc35edd38": {
+        "type": "spyware",
+        "family": "SpyMax",
+        "url": "https://blog.lookout.com/commercial-surveillanceware-operators-latest-to-take-advantage-of-covid-19",
+        "sha256": "107169ae6951a5cba57d2a0cd274e28fadf5c73d73e91a386f15cf4dc35edd38"
+    },
+    "0166ef39488005c7f6f232a93b3329c644a374bcf862b0255796caca3e20f6aa": {
+        "type": "spyware",
+        "family": "SpyMax",
+        "url": "https://blog.lookout.com/commercial-surveillanceware-operators-latest-to-take-advantage-of-covid-19",
+        "sha256": "0166ef39488005c7f6f232a93b3329c644a374bcf862b0255796caca3e20f6aa"
+    },
+    "0a399c83c1dcefe7901642e1e316f963eb2e0950ac3b0125ed1dd7c4d69d0f1a": {
+        "type": "spyware",
+        "family": "SpyNote",
+        "url": "https://blog.lookout.com/nation-state-mobile-malware-targets-syrians-with-covid-19-lures",
+        "sha256": "0a399c83c1dcefe7901642e1e316f963eb2e0950ac3b0125ed1dd7c4d69d0f1a"
+    },
+    "36228f5011d562d932a0643c1aa6929d47c27d8e209c5e08543225592db627ba": {
+        "type": "banker",
+        "family": "Faketoken",
+        "url": "https://securelist.com/the-banker-that-encrypted-files/76913/",
+        "sha256": "36228f5011d562d932a0643c1aa6929d47c27d8e209c5e08543225592db627ba"
+    },
+    "f079c01ce5783e8ceb96fe425c34af535a19fcbe62638bf45366b0c1ba2bc708": {
+        "type": "banker",
+        "family": "Hqwar",
+        "url": "https://securelist.com/hqwar-the-higher-it-flies-the-harder-it-drops/93689/",
+        "sha256": "f079c01ce5783e8ceb96fe425c34af535a19fcbe62638bf45366b0c1ba2bc708"
+    },
+    "79e602a062d05fbb1409afc16e6d41ac0645576b2b5c1899dc93e6852c30a71f": {
+        "type": "ransomware",
+        "family": "DoubleLocker",
+        "url": "https://www.welivesecurity.com/2017/10/13/doublelocker-innovative-android-malware/",
+        "sha256": "79e602a062d05fbb1409afc16e6d41ac0645576b2b5c1899dc93e6852c30a71f"
+    },
+    "8aa4a75adfb50753a2f903469fdf04cc5df0dc524b71c3829c218c06575815a9": {
+        "type": "banker",
+        "family": "Hqwar",
+        "url": "https://securelist.com/hqwar-the-higher-it-flies-the-harder-it-drops/93689/",
+        "sha256": "8aa4a75adfb50753a2f903469fdf04cc5df0dc524b71c3829c218c06575815a9"
+    },
+    "d9208cd995a3228635dbb3c34a3bb2bc9051483c871791e8a2c48de61c07eff6": {
+        "type": "banker",
+        "family": "Hqwar",
+        "url": "https://securelist.com/hqwar-the-higher-it-flies-the-harder-it-drops/93689/",
+        "sha256": "d9208cd995a3228635dbb3c34a3bb2bc9051483c871791e8a2c48de61c07eff6"
+    },
+    "286cbb181204e3c67151766d3c4d969c13ef10350c57ebd71e8bb02423d15609": {
+        "type": "ransomware",
+        "family": "Locker",
+        "url": "https://www.fortinet.com/blog/threat-research/android-locker-malware-uses-google-cloud-messaging-service",
+        "sha256": "286cbb181204e3c67151766d3c4d969c13ef10350c57ebd71e8bb02423d15609"
+    },
+    "74cd5726209dee35f7284f27d08aa6265a54e7b338996db26f30140f92156494": {
+        "type": "banker",
+        "family": "Svpeng",
+        "url": "https://securelist.com/a-new-era-in-mobile-banking-trojans/79198/",
+        "sha256": "74cd5726209dee35f7284f27d08aa6265a54e7b338996db26f30140f92156494"
+    },
+    "18da21d688317ba1eb704b9127757d1c9feeac362537fccd7e68ecb7e06adeb9": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "18da21d688317ba1eb704b9127757d1c9feeac362537fccd7e68ecb7e06adeb9"
+    },
+    "d2c0ced8bbd2a30c2ec726065d5bf0e124a5949418eb19fc8b94a5541695c1b9": {
+        "type": "spyware",
+        "family": "Lucy",
+        "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
+        "sha256": "d2c0ced8bbd2a30c2ec726065d5bf0e124a5949418eb19fc8b94a5541695c1b9"
+    },
+    "0ac1a48c7b3d17afb258be9f0fcb03720129d9939f7fbac741dbb6042012045a": {
+        "type": "spyware",
+        "family": "Lucy",
+        "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
+        "sha256": "0ac1a48c7b3d17afb258be9f0fcb03720129d9939f7fbac741dbb6042012045a"
+    },
+    "283892cbf8ff13ddf499835185d54bb2fa4c86864eaecf5de231c67f6d14da82": {
+        "type": "spyware",
+        "family": "Lucy",
+        "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
+        "sha256": "283892cbf8ff13ddf499835185d54bb2fa4c86864eaecf5de231c67f6d14da82"
+    },
+    "728a6ea44aab94a2d0ebbccbf0c1b4a93fbd9efa8813c19a88d368d6a46b4f4f": {
+        "type": "banker",
+        "family": "Cerberus",
+        "url": "https://www.threatfabric.com/blogs/cerberus-a-new-banking-trojan-from-the-underworld.html",
+        "sha256": "728a6ea44aab94a2d0ebbccbf0c1b4a93fbd9efa8813c19a88d368d6a46b4f4f"
+    },
+    "20acb6c9de4eb8764a7d91034c4065adb0b9e5f7afb8183ff9abc1d09bff20fd": {
+        "type": "spyware",
+        "family": "Lucy",
+        "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
+        "sha256": "20acb6c9de4eb8764a7d91034c4065adb0b9e5f7afb8183ff9abc1d09bff20fd"
+    },
+    "ffa5ac3460998e7b9856fc136ebcd112196c3abf24816ccab1fbae11eae4954c": {
+        "type": "banker",
+        "family": "Cerberus",
+        "url": "https://www.threatfabric.com/blogs/cerberus-a-new-banking-trojan-from-the-underworld.html",
+        "sha256": "ffa5ac3460998e7b9856fc136ebcd112196c3abf24816ccab1fbae11eae4954c"
+    },
+    "3f2ed928789c200e21fd0c2095619a346f75d84f76f1e54a8b3153385850ea63": {
+        "type": "banker",
+        "family": "Cerberus",
+        "url": "https://www.threatfabric.com/blogs/cerberus-a-new-banking-trojan-from-the-underworld.html",
+        "sha256": "3f2ed928789c200e21fd0c2095619a346f75d84f76f1e54a8b3153385850ea63"
+    },
+    "a2bd3ed53c78b4e9daf8b1d732464423ef8bc7e7f8efc78188107632d8dbf749": {
+        "type": "spyware",
+        "family": "Lucy",
+        "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
+        "sha256": "a2bd3ed53c78b4e9daf8b1d732464423ef8bc7e7f8efc78188107632d8dbf749"
+    },
+    "c6e27280f6f7d3199bff21018fb1fa6f9338b81f3572b010ab5467fe54649a19": {
+        "type": "spyware",
+        "family": "Lucy",
+        "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
+        "sha256": "c6e27280f6f7d3199bff21018fb1fa6f9338b81f3572b010ab5467fe54649a19"
+    },
+    "c18c5ca32b80d4b595500853e1899d03edbe954d1e79da14f167aa888918d547": {
+        "type": "spyware",
+        "family": "Lucy",
+        "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
+        "sha256": "c18c5ca32b80d4b595500853e1899d03edbe954d1e79da14f167aa888918d547"
+    },
+    "3144526d354e29e5cc3985a8f06513627b98441d6db745b96fe85e78bf17b066": {
+        "type": "spyware",
+        "family": "Lucy",
+        "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
+        "sha256": "3144526d354e29e5cc3985a8f06513627b98441d6db745b96fe85e78bf17b066"
+    },
+    "f1dd83ae85d1c91e09643657e19242f90a39a238d28cd3ece9b91379c768e471": {
+        "type": "spyware",
+        "family": "Lucy",
+        "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
+        "sha256": "f1dd83ae85d1c91e09643657e19242f90a39a238d28cd3ece9b91379c768e471"
+    },
+    "fa03d0f0d64e7f7192625f4b157b7844205d21c673959e99307b42b6a8c0df56": {
+        "type": "spyware",
+        "family": "SpyNote",
+        "url": "https://blog.lookout.com/nation-state-mobile-malware-targets-syrians-with-covid-19-lures",
+        "sha256": "fa03d0f0d64e7f7192625f4b157b7844205d21c673959e99307b42b6a8c0df56"
+    },
+    "7f4bbe3e6ba3a35e7a187369f5ed280de557e93121c85f2a9e4a8bb63ac8f7f2": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "7f4bbe3e6ba3a35e7a187369f5ed280de557e93121c85f2a9e4a8bb63ac8f7f2"
+    },
+    "6eb92722e16840495363bb3f3e6bba6f2c6f30ad9eb8e891b90eb455dc5e3e91": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "6eb92722e16840495363bb3f3e6bba6f2c6f30ad9eb8e891b90eb455dc5e3e91"
+    },
+    "cc450300221377e1b90b496c654a90a27e148dfecffa86d8d2c4846fad714652": {
+        "type": "adware",
+        "family": "GhostClicker",
+        "url": "https://www.trendmicro.com/en_us/research/17/h/ghostclicker-adware-is-a-phantomlike-android-click-fraud.html",
+        "sha256": "cc450300221377e1b90b496c654a90a27e148dfecffa86d8d2c4846fad714652"
+    },
+    "5324460dfe1d4f774a024ecc375e3a858c96355f71afccf0cb67438037697b06": {
+        "type": "rootkit",
+        "family": "Ztorg",
+        "url": "https://www.anquanke.com/post/id/85787",
+        "sha256": "5324460dfe1d4f774a024ecc375e3a858c96355f71afccf0cb67438037697b06"
+    },
+    "63cb0e4e97a02de706c68c44b4bda211b037a5c21176fadf12e1cea88d25f1a0": {
+        "type": "banker",
+        "family": "Banker",
+        "url": "https://www.bitdefender.com/en-us/blog/labs/android-apps-and-malware-capitalize-on-coronavirus",
+        "sha256": "63cb0e4e97a02de706c68c44b4bda211b037a5c21176fadf12e1cea88d25f1a0"
+    },
+    "62347708c5db102397e4be4c9fc21f51af0efa1b25ac531286f537e93388fb2e": {
+        "type": "rootkit",
+        "family": "Ztorg",
+        "url": "https://securelist.com/ztorg-money-for-infecting-your-smartphone/78325/",
+        "sha256": "62347708c5db102397e4be4c9fc21f51af0efa1b25ac531286f537e93388fb2e"
+    },
+    "dfb54d6c468271c73865d45e54b9dd942a18e716d608cf9233f1122cf79bab8c": {
+        "type": "banker",
+        "family": "Banker",
+        "url": "https://www.bitdefender.com/en-us/blog/labs/android-apps-and-malware-capitalize-on-coronavirus",
+        "sha256": "dfb54d6c468271c73865d45e54b9dd942a18e716d608cf9233f1122cf79bab8c"
+    },
+    "3984c25dba94309a89f911ecd65df2e182e6430f3b0aec1efa11b6a9e58932b4": {
+        "type": "spyware",
+        "family": "GolfSpy",
+        "url": "https://www.trendmicro.com/en_us/research/19/f/mobile-cyberespionage-campaign-bouncing-golf-affects-middle-east.html#",
+        "sha256": "3984c25dba94309a89f911ecd65df2e182e6430f3b0aec1efa11b6a9e58932b4"
+    },
+    "36f40d5a11d886a2280c57859cd5f22de2d78c87dcdb52ea601089745eeee494": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://www.trendmicro.com/en_us/research/17/g/slocker-mobile-ransomware-starts-mimicking-wannacry.html",
+        "sha256": "36f40d5a11d886a2280c57859cd5f22de2d78c87dcdb52ea601089745eeee494"
+    },
+    "200d8f98c326fc65f3a11dc5ff1951051c12991cc0996273eeb9b71b27bc294d": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://www.trendmicro.com/en_us/research/17/g/slocker-mobile-ransomware-starts-mimicking-wannacry.html",
+        "sha256": "200d8f98c326fc65f3a11dc5ff1951051c12991cc0996273eeb9b71b27bc294d"
+    },
+    "2ffd539d462847bebcdff658a83f74ca7f039946bbc6c6247be2fc62dc0e4060": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://www.trendmicro.com/en_us/research/17/g/slocker-mobile-ransomware-starts-mimicking-wannacry.html",
+        "sha256": "2ffd539d462847bebcdff658a83f74ca7f039946bbc6c6247be2fc62dc0e4060"
+    },
+    "cb0a18bcc8a2c9a966d3f585771db8b2e627a7b4427a889191a93b3a1b261ba3": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://www.trendmicro.com/en_us/research/17/g/slocker-mobile-ransomware-starts-mimicking-wannacry.html",
+        "sha256": "cb0a18bcc8a2c9a966d3f585771db8b2e627a7b4427a889191a93b3a1b261ba3"
+    },
+    "6aa59e516b662d1b23f09b04e12ceac86f4ee001111c2f727b149249d08b963c": {
+        "type": "spyware",
+        "family": "SpyNote",
+        "url": "https://blog.lookout.com/nation-state-mobile-malware-targets-syrians-with-covid-19-lures",
+        "sha256": "6aa59e516b662d1b23f09b04e12ceac86f4ee001111c2f727b149249d08b963c"
+    },
+    "3bb289b1680e54dba2bb690ed6f23db4dba6e8f998b503478d6595eee04763bc": {
+        "type": "spyware",
+        "family": "SpyMax",
+        "url": "https://blog.lookout.com/commercial-surveillanceware-operators-latest-to-take-advantage-of-covid-19",
+        "sha256": "3bb289b1680e54dba2bb690ed6f23db4dba6e8f998b503478d6595eee04763bc"
+    },
+    "5b986ef187047d86b64df909b2112aba40226e833772d5a2f526d5d588db0f24": {
+        "type": "spyware",
+        "family": "SpyMax",
+        "url": "https://blog.lookout.com/commercial-surveillanceware-operators-latest-to-take-advantage-of-covid-19",
+        "sha256": "5b986ef187047d86b64df909b2112aba40226e833772d5a2f526d5d588db0f24"
+    },
+    "e5ce81607af44b5bf78612c736fb66cc31372594383f4519cf1e52f79df2ec64": {
+        "type": "spyware",
+        "family": "SpyMax",
+        "url": "https://blog.lookout.com/commercial-surveillanceware-operators-latest-to-take-advantage-of-covid-19",
+        "sha256": "e5ce81607af44b5bf78612c736fb66cc31372594383f4519cf1e52f79df2ec64"
+    },
+    "8cc9ceaefc3a9aac5b1e1a7e482e92ba67d3dfc37fea6709e2c176a87a9adc61": {
+        "type": "spyware",
+        "family": "SpyNote",
+        "url": "https://blog.lookout.com/nation-state-mobile-malware-targets-syrians-with-covid-19-lures",
+        "sha256": "8cc9ceaefc3a9aac5b1e1a7e482e92ba67d3dfc37fea6709e2c176a87a9adc61"
+    },
+    "31b3fed9290644540511fec8307e6edebcdb4a32e594dbee71d0bbc61686b756": {
+        "type": "spyware",
+        "family": "SpyNote",
+        "url": "https://blog.lookout.com/nation-state-mobile-malware-targets-syrians-with-covid-19-lures",
+        "sha256": "31b3fed9290644540511fec8307e6edebcdb4a32e594dbee71d0bbc61686b756"
+    },
+    "38ed92017ed2a1ae068d87f6f9d5b5f327443010cc7282c721f723b2e4daf66d": {
+        "type": "spyware",
+        "family": "SpyNote",
+        "url": "https://blog.lookout.com/nation-state-mobile-malware-targets-syrians-with-covid-19-lures",
+        "sha256": "38ed92017ed2a1ae068d87f6f9d5b5f327443010cc7282c721f723b2e4daf66d"
+    },
+    "9301eb46f81a9c9163325658b6b97dd10c518fa5d5934885a790474fe717a6f1": {
+        "type": "spyware",
+        "family": "SpyNote",
+        "url": "https://blog.lookout.com/nation-state-mobile-malware-targets-syrians-with-covid-19-lures",
+        "sha256": "9301eb46f81a9c9163325658b6b97dd10c518fa5d5934885a790474fe717a6f1"
+    },
+    "bcd046b86ae909943b8bbe2005f4773e1269b8eceb658006a6c88333b9d77438": {
+        "type": "spyware",
+        "family": "SpyNote",
+        "url": "https://blog.lookout.com/nation-state-mobile-malware-targets-syrians-with-covid-19-lures",
+        "sha256": "bcd046b86ae909943b8bbe2005f4773e1269b8eceb658006a6c88333b9d77438"
+    },
+    "bc6f9c6d9beecd6f1353953ef6d883c51739ecec7e5b55e15319fe0d0b124a6d": {
+        "type": "adware",
+        "family": "HiddenAd",
+        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/multi-tricks-hiddenads-malware/?hilite=%27android%27%2C%27malware%27",
+        "sha256": "bc6f9c6d9beecd6f1353953ef6d883c51739ecec7e5b55e15319fe0d0b124a6d"
+    },
+    "92ea01d0198506d5a43e3cfccf7b2661c131c57e8d260fbf34760f01a897b0cb": {
+        "type": "trojan",
+        "family": "FraudBot",
+        "url": "https://www.trendmicro.com/en_us/research/18/k/fake-voice-apps-on-google-play-botnet-likely-in-development.html",
+        "sha256": "92ea01d0198506d5a43e3cfccf7b2661c131c57e8d260fbf34760f01a897b0cb"
+    },
+    "3f7b367488e761f89b4adeb5dc1b961766c238d41ebb9fbd726da8499d1fce26": {
+        "type": "trojan",
+        "family": "FraudBot",
+        "url": "https://www.trendmicro.com/en_us/research/18/k/fake-voice-apps-on-google-play-botnet-likely-in-development.html",
+        "sha256": "3f7b367488e761f89b4adeb5dc1b961766c238d41ebb9fbd726da8499d1fce26"
+    },
+    "9742148afe109e8ab25ec81f58aee8befed6be20affa7b2a71702a65d4bc377c": {
+        "type": "trojan",
+        "family": "FraudBot",
+        "url": "https://www.trendmicro.com/en_us/research/18/k/fake-voice-apps-on-google-play-botnet-likely-in-development.html",
+        "sha256": "9742148afe109e8ab25ec81f58aee8befed6be20affa7b2a71702a65d4bc377c"
+    },
+    "7a4813f68936a37fce366154a608ad307084336abc205b55f80b0a6788d067ac": {
+        "type": "trojan",
+        "family": "FraudBot",
+        "url": "https://www.trendmicro.com/en_us/research/18/k/fake-voice-apps-on-google-play-botnet-likely-in-development.html",
+        "sha256": "7a4813f68936a37fce366154a608ad307084336abc205b55f80b0a6788d067ac"
+    },
+    "00e82927b20d2db5bdfc6bff77f6841d0e59af80adce3f86f90277669159e5f3": {
+        "type": "spyware",
+        "family": "GolfSpy",
+        "url": "https://www.trendmicro.com/en_us/research/19/f/mobile-cyberespionage-campaign-bouncing-golf-affects-middle-east.html#",
+        "sha256": "00e82927b20d2db5bdfc6bff77f6841d0e59af80adce3f86f90277669159e5f3"
+    },
+    "ca112c63ec11491bea459353299f155fd580e18a1beae99d89f9e4c1ad1eec55": {
+        "type": "spyware",
+        "family": "FakeSpy",
+        "url": "https://www.trendmicro.com/en_us/research/18/f/fakespy-android-information-stealing-malware-targets-japanese-and-korean-speaking-users.html",
+        "sha256": "ca112c63ec11491bea459353299f155fd580e18a1beae99d89f9e4c1ad1eec55"
+    },
+    "3a41f07537b31171e380ec7b7ec3e5a9d5a03bc82ce718ebb44c7504d348c57a": {
+        "type": "spyware",
+        "family": "FakeSpy",
+        "url": "https://www.trendmicro.com/en_us/research/18/f/fakespy-android-information-stealing-malware-targets-japanese-and-korean-speaking-users.html",
+        "sha256": "3a41f07537b31171e380ec7b7ec3e5a9d5a03bc82ce718ebb44c7504d348c57a"
+    },
+    "76c9d8226ce558c87c81236a9b95112b83c7b546863e29b88fec4dba5c720c0b": {
+        "type": "banker",
+        "family": "Rotexy",
+        "url": "https://securelist.com/the-rotexy-mobile-trojan-banker-and-ransomware/88893/",
+        "sha256": "76c9d8226ce558c87c81236a9b95112b83c7b546863e29b88fec4dba5c720c0b"
+    },
+    "a912166eaf2c8e0c3c87f17bb208f622a0b51bfa1124e5ba84f42a4adf7a96b4": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "a912166eaf2c8e0c3c87f17bb208f622a0b51bfa1124e5ba84f42a4adf7a96b4"
+    },
+    "61f73bf90c3234faeb8aa7c90f24fa3f7a3a1d38b2e94d40ce96a21e7320fd28": {
+        "type": "ransomware",
+        "family": "Filecoder",
+        "url": "https://www.welivesecurity.com/2019/07/29/android-ransomware-back/",
+        "sha256": "61f73bf90c3234faeb8aa7c90f24fa3f7a3a1d38b2e94d40ce96a21e7320fd28"
+    },
+    "fa9d1664ef9192b50228d7c21589f4fe9f3002faa503b39666a8a3bcd03ed635": {
+        "type": "ransomware",
+        "family": "Filecoder",
+        "url": "https://www.welivesecurity.com/2019/07/29/android-ransomware-back/",
+        "sha256": "fa9d1664ef9192b50228d7c21589f4fe9f3002faa503b39666a8a3bcd03ed635"
+    },
+    "4015d54e74d523a466c2a8cd35efbe764e2629b6147eca0f2f0de79dd2b25d34": {
+        "type": "spyware",
+        "family": "SpyNote",
+        "url": "https://blog.lookout.com/nation-state-mobile-malware-targets-syrians-with-covid-19-lures",
+        "sha256": "4015d54e74d523a466c2a8cd35efbe764e2629b6147eca0f2f0de79dd2b25d34"
+    },
+    "e5f9523c154bf18f4cd093845246994b34e9abb5f99cc9e24ed909a3e2df09f4": {
+        "type": "banker",
+        "family": "EventBot",
+        "url": "https://www.cybereason.com/blog/eventbot-a-new-mobile-banking-trojan-is-born",
+        "sha256": "e5f9523c154bf18f4cd093845246994b34e9abb5f99cc9e24ed909a3e2df09f4"
+    },
+    "29af78637243d52da36baa2bda0bd478217f84333c2e00a7e0d8ebe6d980c55c": {
+        "type": "adware",
+        "family": "GhostClicker",
+        "url": "https://www.trendmicro.com/en_us/research/17/h/ghostclicker-adware-is-a-phantomlike-android-click-fraud.html",
+        "sha256": "29af78637243d52da36baa2bda0bd478217f84333c2e00a7e0d8ebe6d980c55c"
+    },
+    "84136b96ee1487a3f763436c5e60591be321ac4dd953d2b9a03dbec908d1962a": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "84136b96ee1487a3f763436c5e60591be321ac4dd953d2b9a03dbec908d1962a"
+    },
+    "0f7fc30cc701bea7e6ffa541665670ff126a9b3bc0c55ea9bc51c461d8d629a8": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "0f7fc30cc701bea7e6ffa541665670ff126a9b3bc0c55ea9bc51c461d8d629a8"
+    },
+    "b89892fe9fd306636cb79225ab260320b26b2313d1f415f885b8d6843fcc6919": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "b89892fe9fd306636cb79225ab260320b26b2313d1f415f885b8d6843fcc6919"
+    },
+    "0b5c854fceaccad3516ebb1a424d935d393fa2f2246f1704e36e8084e29949c8": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "0b5c854fceaccad3516ebb1a424d935d393fa2f2246f1704e36e8084e29949c8"
+    },
+    "418bdfa331cba37b1185645c71ee2cf31eb01cfcc949569f1addbff79f73be66": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "418bdfa331cba37b1185645c71ee2cf31eb01cfcc949569f1addbff79f73be66"
+    },
+    "1902424d09c9ddce312c84d166353199c5e6da97918b61616ec38431bdaa1359": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "1902424d09c9ddce312c84d166353199c5e6da97918b61616ec38431bdaa1359"
+    },
+    "1a18fc5f117c8240dce9379390fe5da27e6b135246dcb7ac37abb1acf47db0fe": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "1a18fc5f117c8240dce9379390fe5da27e6b135246dcb7ac37abb1acf47db0fe"
+    },
+    "12b1bb4f6fcaab8868e9bf22956013ae1d86cfbb195ce90fee77cc3ae6d22948": {
+        "type": "trojan",
+        "family": "Mapin",
+        "url": "https://www.welivesecurity.com/2015/09/22/android-trojan-drops-in-despite-googles-bouncer/",
+        "sha256": "12b1bb4f6fcaab8868e9bf22956013ae1d86cfbb195ce90fee77cc3ae6d22948"
+    },
+    "b2cc3b288d4bb855e64343317cf1560cb09f22322618c5ff9bdc9d9e70c8f335": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "b2cc3b288d4bb855e64343317cf1560cb09f22322618c5ff9bdc9d9e70c8f335"
+    },
+    "b28252734dd6cbd2b9c43b84ec69865c5ee6daea25b521387cf241f6326f14a3": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "b28252734dd6cbd2b9c43b84ec69865c5ee6daea25b521387cf241f6326f14a3"
+    },
+    "ab51dcd0629758743ed1aa48531a71852a49454cc9c90f37fbedb8c02547d258": {
+        "type": "banker",
+        "family": "LokiBot",
+        "url": "https://www.threatfabric.com/blogs/lokibot_the_first_hybrid_android_malware",
+        "sha256": "ab51dcd0629758743ed1aa48531a71852a49454cc9c90f37fbedb8c02547d258"
+    },
+    "969f5a67fcbe15ae7e94188bccf84434745959ff42b0bf16e45ad045ca8aac2d": {
+        "type": "trojan",
+        "family": "Inazigram",
+        "url": "https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/",
+        "sha256": "969f5a67fcbe15ae7e94188bccf84434745959ff42b0bf16e45ad045ca8aac2d"
+    },
+    "c0de04050bdf26e8bdb8559db396cd959f1770f299a7090491289f0792339623": {
+        "type": "spyware",
+        "family": "Bahamut",
+        "url": "https://www.trendmicro.com/en_us/research/18/h/the-urpage-connection-to-bahamut-confucius-and-patchwork.html",
+        "sha256": "c0de04050bdf26e8bdb8559db396cd959f1770f299a7090491289f0792339623"
+    },
+    "59d64fbff1e5a9ac1f8e29660ed9a76e5546ca07c2ff99fe56242fa43b5abec3": {
+        "type": "trojan",
+        "family": "MobOk",
+        "url": "https://gbhackers.com/mobok-malware-via-fake-photo-editing-apps/",
+        "sha256": "59d64fbff1e5a9ac1f8e29660ed9a76e5546ca07c2ff99fe56242fa43b5abec3"
+    },
+    "d4406dee2c0e3e38a851cea6fd5c4283e98497a894ca14a58b27d33a89b5ed5f": {
+        "type": "trojan",
+        "family": "MobOk",
+        "url": "https://gbhackers.com/mobok-malware-via-fake-photo-editing-apps/",
+        "sha256": "d4406dee2c0e3e38a851cea6fd5c4283e98497a894ca14a58b27d33a89b5ed5f"
+    },
+    "e832ed7a0311da2fab5c40b87c5046d7a9cfd825d682de491fd6e85d728ad083": {
+        "type": "trojan",
+        "family": "Mapin",
+        "url": "https://www.welivesecurity.com/2015/09/22/android-trojan-drops-in-despite-googles-bouncer/",
+        "sha256": "e832ed7a0311da2fab5c40b87c5046d7a9cfd825d682de491fd6e85d728ad083"
+    },
+    "dbfab6e6fe3c2af3c8e23476b507eebed3cbe05633ab98fcb421ed156aa34236": {
+        "type": "trojan",
+        "family": "FakeApp",
+        "url": "https://www.welivesecurity.com/2019/06/17/malware-google-permissions-2fa-bypass/",
+        "sha256": "dbfab6e6fe3c2af3c8e23476b507eebed3cbe05633ab98fcb421ed156aa34236"
+    },
+    "9501ca777fcfcf723a67d1b0b79f5a1a16113c8027ed72e434017ed5eafe84ef": {
+        "type": "trojan",
+        "family": "FakeApp",
+        "url": "https://www.welivesecurity.com/2019/06/17/malware-google-permissions-2fa-bypass/",
+        "sha256": "9501ca777fcfcf723a67d1b0b79f5a1a16113c8027ed72e434017ed5eafe84ef"
+    },
+    "d3d80d736245674492327ca0315488ea9ddc670278f84e52daca313751344526": {
+        "type": "trojan",
+        "family": "Inazigram",
+        "url": "https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/",
+        "sha256": "d3d80d736245674492327ca0315488ea9ddc670278f84e52daca313751344526"
+    },
+    "0b75a8de0acd2f86806c794fd29437c6676dad026f68225f0431a4f4d8b43e43": {
+        "type": "spyware",
+        "family": "Bahamut",
+        "url": "https://www.trendmicro.com/en_us/research/18/h/the-urpage-connection-to-bahamut-confucius-and-patchwork.html",
+        "sha256": "0b75a8de0acd2f86806c794fd29437c6676dad026f68225f0431a4f4d8b43e43"
+    },
+    "973ac11b0c8e0b41d3e57dc766bff2d70c460ccf64cbdd2bf3d4c4bb09a00946": {
+        "type": "spyware",
+        "family": "Xavier",
+        "url": "https://www.trendmicro.com/en_us/research/17/f/analyzing-xavier-information-stealing-ad-library-android.html",
+        "sha256": "973ac11b0c8e0b41d3e57dc766bff2d70c460ccf64cbdd2bf3d4c4bb09a00946"
+    },
+    "c1d9a61fdfe9c8dfb8b4482f18886cc74271b6dc63dd6eeb8605d576716c0842": {
+        "type": "trojan",
+        "family": "Mapin",
+        "url": "https://www.welivesecurity.com/2015/09/22/android-trojan-drops-in-despite-googles-bouncer/",
+        "sha256": "c1d9a61fdfe9c8dfb8b4482f18886cc74271b6dc63dd6eeb8605d576716c0842"
+    },
+    "8db04b4fac4cd4368a85dfad85e16e9acadc301700532302687dc273f028bdbd": {
+        "type": "rootkit",
+        "family": "Ztorg",
+        "url": "https://securelist.com/ztorg-money-for-infecting-your-smartphone/78325/",
+        "sha256": "8db04b4fac4cd4368a85dfad85e16e9acadc301700532302687dc273f028bdbd"
+    },
+    "5e03ee92805cc086e26ec951c6f0deb802f72e047fc9c3efc3a649884c0973c6": {
+        "type": "adware",
+        "family": "GhostClicker",
+        "url": "https://www.trendmicro.com/en_us/research/17/h/ghostclicker-adware-is-a-phantomlike-android-click-fraud.html",
+        "sha256": "5e03ee92805cc086e26ec951c6f0deb802f72e047fc9c3efc3a649884c0973c6"
+    },
+    "6ca48ef560e3ee8d4064925c26a1fe81a69896d520c63232f8289f111ec0e7a6": {
+        "type": "trojan",
+        "family": "Inazigram",
+        "url": "https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/",
+        "sha256": "6ca48ef560e3ee8d4064925c26a1fe81a69896d520c63232f8289f111ec0e7a6"
+    },
+    "8c5826441a7000f957ece60a3e5294732f9a430d4bec0113bb13b99c73fba47c": {
+        "type": "adware",
+        "family": "HiddenAd",
+        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/multi-tricks-hiddenads-malware/?hilite=%27android%27%2C%27malware%27",
+        "sha256": "8c5826441a7000f957ece60a3e5294732f9a430d4bec0113bb13b99c73fba47c"
+    },
+    "a5ba85f082785c4368ac9d16663636d297ebc6eefacb5ab6303abac765de1b4c": {
+        "type": "spyware",
+        "family": "Bahamut",
+        "url": "https://www.trendmicro.com/en_us/research/18/h/the-urpage-connection-to-bahamut-confucius-and-patchwork.html",
+        "sha256": "a5ba85f082785c4368ac9d16663636d297ebc6eefacb5ab6303abac765de1b4c"
+    },
+    "72295413a7d8ea14625affa511a58eda8771d2bc0dbc7eb300c87fc4a30bb8ef": {
+        "type": "trojan",
+        "family": "Inazigram",
+        "url": "https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/",
+        "sha256": "72295413a7d8ea14625affa511a58eda8771d2bc0dbc7eb300c87fc4a30bb8ef"
+    },
+    "126547985987c3ecb1321a3a565d8565b64d437fd28418a6ba4bbc3220f684d2": {
+        "type": "trojan",
+        "family": "FakeApp",
+        "url": "https://www.welivesecurity.com/2019/06/17/malware-google-permissions-2fa-bypass/",
+        "sha256": "126547985987c3ecb1321a3a565d8565b64d437fd28418a6ba4bbc3220f684d2"
+    },
+    "66c012f52476b7fc36d3a0c7ab571a5c64532f9afc25fd0baa62b8836a5455c3": {
+        "type": "spyware",
+        "family": "SpyMax",
+        "url": "https://blog.lookout.com/commercial-surveillanceware-operators-latest-to-take-advantage-of-covid-19",
+        "sha256": "66c012f52476b7fc36d3a0c7ab571a5c64532f9afc25fd0baa62b8836a5455c3"
+    },
+    "868e0a1904d2f9c142adca02bc5834035873ad3d5c97a2815cf3c1cd2d961355": {
+        "type": "spyware",
+        "family": "Fanta",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "sha256": "868e0a1904d2f9c142adca02bc5834035873ad3d5c97a2815cf3c1cd2d961355"
+    },
+    "464474b7bd50c61ba117573d1def10b047c5c113a02034ccaed91b99754e0098": {
+        "type": "trojan",
+        "family": "Inazigram",
+        "url": "https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/",
+        "sha256": "464474b7bd50c61ba117573d1def10b047c5c113a02034ccaed91b99754e0098"
+    },
+    "4cdbd105ab8117620731630f8f89eb2e6110dbf6341df43712a0ec9837c5a9be": {
+        "type": "banker",
+        "family": "Brata",
+        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/brata-keeps-sneaking-into-google-play-now-targeting-usa-and-spain/?hilite=%27Android%27%2C%27Malware%27",
+        "sha256": "4cdbd105ab8117620731630f8f89eb2e6110dbf6341df43712a0ec9837c5a9be"
+    },
+    "ba5b031324a2a2bd9398cf695a7d8aea8aae0af27bf414a0108a7a362bebbf11": {
+        "type": "trojan",
+        "family": "Inazigram",
+        "url": "https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/",
+        "sha256": "ba5b031324a2a2bd9398cf695a7d8aea8aae0af27bf414a0108a7a362bebbf11"
+    },
+    "6e995d68c724f121d43ec2ff59bc4e536192360afa3beaec5646f01094f0b745": {
+        "type": "banker",
+        "family": "Riltok",
+        "url": "https://securelist.com/mobile-banker-riltok/91374/",
+        "sha256": "6e995d68c724f121d43ec2ff59bc4e536192360afa3beaec5646f01094f0b745"
+    },
+    "15f5f65b46d79291ef005e4268c3e0c785dcffc49da01debb95ab2b3575f4da2": {
+        "type": "trojan",
+        "family": "LIBSKIN",
+        "url": "https://www.trendmicro.com/en_us/research/16/b/user-beware-rooting-malware-found-in-3rd-party-app-stores.html",
+        "sha256": "15f5f65b46d79291ef005e4268c3e0c785dcffc49da01debb95ab2b3575f4da2"
+    },
+    "36e74d155ad6ce0b3d546558c8f24d047088400cb923e2ae38990b3ff6c662ee": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "36e74d155ad6ce0b3d546558c8f24d047088400cb923e2ae38990b3ff6c662ee"
+    },
+    "d2dd11684e7cd53a134215f173d1bf36c0f5fbdd5a41294cbc032ec8180313f1": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "d2dd11684e7cd53a134215f173d1bf36c0f5fbdd5a41294cbc032ec8180313f1"
+    },
+    "2fdb1d7e66332d9398f47d7cb06bfd38a335e5311a201adb60e36c9b5f031279": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "2fdb1d7e66332d9398f47d7cb06bfd38a335e5311a201adb60e36c9b5f031279"
+    },
+    "7d81852ead34bb3f87e228f5cb69e7844f51b642d0c45929ceb11ffcbe12e6d6": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "7d81852ead34bb3f87e228f5cb69e7844f51b642d0c45929ceb11ffcbe12e6d6"
+    },
+    "c4c9c2befe7c283ddc3885eef5380bf35ae59def84e58783c0aad43b9e3f321d": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "c4c9c2befe7c283ddc3885eef5380bf35ae59def84e58783c0aad43b9e3f321d"
+    },
+    "d9de2f8b99643a3d46125c7517dea093ed8eaea3107127c000b6b7acfd9f65b4": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "d9de2f8b99643a3d46125c7517dea093ed8eaea3107127c000b6b7acfd9f65b4"
+    },
+    "d0a75e9233d8098f87182d53cd40787bc6f9b671c0f25c3bacdd361ced24741c": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "d0a75e9233d8098f87182d53cd40787bc6f9b671c0f25c3bacdd361ced24741c"
+    },
+    "2d7c660b4899bcf4e2efd1473d30af3e0859d003a3b3d531cf84924207debd99": {
+        "type": "spyware",
+        "family": "Fanta",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "sha256": "2d7c660b4899bcf4e2efd1473d30af3e0859d003a3b3d531cf84924207debd99"
+    },
+    "6d4ece4c5712995af7b76a03b535a3eaf10fcdca20f892f8dc9bdaf3fa85d590": {
+        "type": "spyware",
+        "family": "Fanta",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "sha256": "6d4ece4c5712995af7b76a03b535a3eaf10fcdca20f892f8dc9bdaf3fa85d590"
+    },
+    "a15bedfbbdc7022a0b271f26ea333d409486d902166368a6a583a8868e4ea9c9": {
+        "type": "spyware",
+        "family": "Fanta",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "sha256": "a15bedfbbdc7022a0b271f26ea333d409486d902166368a6a583a8868e4ea9c9"
+    },
+    "44c4b9bdcb9840302f928ff035c32e8ecb0328ea5fb712d30510104f57352982": {
+        "type": "spyware",
+        "family": "Fanta",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "sha256": "44c4b9bdcb9840302f928ff035c32e8ecb0328ea5fb712d30510104f57352982"
+    },
+    "30c37ed427252d8fd03dd0df39373c9ad4051b576a36dcfccd479a32ef8c97fa": {
+        "type": "spyware",
+        "family": "Fanta",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "sha256": "30c37ed427252d8fd03dd0df39373c9ad4051b576a36dcfccd479a32ef8c97fa"
+    },
+    "7570817d4ecbd535a8e2bd3d69a53f51fd96d0b9fa1085146ab974c1a4766a81": {
+        "type": "spyware",
+        "family": "Fanta",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "sha256": "7570817d4ecbd535a8e2bd3d69a53f51fd96d0b9fa1085146ab974c1a4766a81"
+    },
+    "d835cf9d88eabc8508f130745fa786385fd7c2cc9c5f29b2da5e6c2dc8372fa6": {
+        "type": "ransomware",
+        "family": "Slocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "sha256": "d835cf9d88eabc8508f130745fa786385fd7c2cc9c5f29b2da5e6c2dc8372fa6"
+    },
+    "000f9f1ce27a57be4db1a0700e680bf36871e2237f18416fe442de0084fa063b": {
+        "type": "rootkit",
+        "family": "Godless",
+        "url": "https://www.trendmicro.com/en_us/research/16/f/godless-mobile-malware-uses-multiple-exploits-root-devices.html",
+        "sha256": "000f9f1ce27a57be4db1a0700e680bf36871e2237f18416fe442de0084fa063b"
+    },
+    "a346ac7b3dec5c8cabb758d73eb0941f427806db6f572c2453c19223ddf55fe4": {
+        "type": "rootkit",
+        "family": "ROOTSTV",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "sha256": "a346ac7b3dec5c8cabb758d73eb0941f427806db6f572c2453c19223ddf55fe4"
+    },
+    "a2af4b765c709860e35974f4744eb7eef5032a6af9b1a97b3946ae550080a3f8": {
+        "type": "banker",
+        "family": "EventBot",
+        "url": "https://www.cybereason.com/blog/eventbot-a-new-mobile-banking-trojan-is-born",
+        "sha256": "a2af4b765c709860e35974f4744eb7eef5032a6af9b1a97b3946ae550080a3f8"
+    },
+    "199859a2929af5431df4a4760f93c83472dc21ea0b9e33d9e45439052de44ab3": {
+        "type": "banker",
+        "family": "EventBot",
+        "url": "https://www.cybereason.com/blog/eventbot-a-new-mobile-banking-trojan-is-born",
+        "sha256": "199859a2929af5431df4a4760f93c83472dc21ea0b9e33d9e45439052de44ab3"
+    },
+    "3e9933213d3af5b8bc0315c89b3ad17bfa6016980482cd4a858e91d77178257a": {
+        "type": "banker",
+        "family": "EventBot",
+        "url": "https://www.cybereason.com/blog/eventbot-a-new-mobile-banking-trojan-is-born",
+        "sha256": "3e9933213d3af5b8bc0315c89b3ad17bfa6016980482cd4a858e91d77178257a"
+    },
+    "793e1a3eda9e050eaefd7b9383bf5d79d56b728ff2d6dabfb25b050546ce0865": {
+        "type": "banker",
+        "family": "EventBot",
+        "url": "https://www.cybereason.com/blog/eventbot-a-new-mobile-banking-trojan-is-born",
+        "sha256": "793e1a3eda9e050eaefd7b9383bf5d79d56b728ff2d6dabfb25b050546ce0865"
+    },
+    "906c3093828f934469045479d316a0fa0b75977528a98d6a6bdc4665de7b2dd2": {
+        "type": "banker",
+        "family": "EventBot",
+        "url": "https://www.cybereason.com/blog/eventbot-a-new-mobile-banking-trojan-is-born",
+        "sha256": "906c3093828f934469045479d316a0fa0b75977528a98d6a6bdc4665de7b2dd2"
+    },
+    "1cfce7df49ce5dc37d655d80481a3a6637d2e7daff09ceede9d8165fae0fce5f": {
+        "type": "banker",
+        "family": "EventBot",
+        "url": "https://www.cybereason.com/blog/eventbot-a-new-mobile-banking-trojan-is-born",
+        "sha256": "1cfce7df49ce5dc37d655d80481a3a6637d2e7daff09ceede9d8165fae0fce5f"
+    },
+    "3f0ced8b829bf0abed887f7a0a4eb33b82ee003b25d98e501eafcbe088ecf865": {
+        "type": "banker",
+        "family": "EventBot",
+        "url": "https://www.cybereason.com/blog/eventbot-a-new-mobile-banking-trojan-is-born",
+        "sha256": "3f0ced8b829bf0abed887f7a0a4eb33b82ee003b25d98e501eafcbe088ecf865"
+    },
+    "d82330e1d84c2f866a0ff21093cb9669aaef2b07bf430541ab6182f98f6fdf82": {
+        "type": "ransomware",
+        "family": "LeakerLocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/leakerlocker-mobile-ransomware-threatens-expose-user-information/",
+        "sha256": "d82330e1d84c2f866a0ff21093cb9669aaef2b07bf430541ab6182f98f6fdf82"
+    },
+    "60f3d4d76cf232372ef569063e01237f5081c45c2e4fecde5fde0da25f0d7484": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "60f3d4d76cf232372ef569063e01237f5081c45c2e4fecde5fde0da25f0d7484"
+    },
+    "b2c7f10d758971d09bc4d6b456bac61c3b395ef20de4d56612f243ac1d1031f1": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "b2c7f10d758971d09bc4d6b456bac61c3b395ef20de4d56612f243ac1d1031f1"
+    },
+    "f66338e09554693a9d250cec8f89ed5087869d6d75a587078888578316c6a0a0": {
+        "type": "adware",
+        "family": "GhostClicker",
+        "url": "https://www.trendmicro.com/en_us/research/17/h/ghostclicker-adware-is-a-phantomlike-android-click-fraud.html",
+        "sha256": "f66338e09554693a9d250cec8f89ed5087869d6d75a587078888578316c6a0a0"
+    },
+    "723f97ff8f1f14ea4bf80ce83fcab21d03816bb8a7ac49c198e080d6e286a5b1": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "723f97ff8f1f14ea4bf80ce83fcab21d03816bb8a7ac49c198e080d6e286a5b1"
+    },
+    "4d8f5e2922e6928a2f8d7d56cc6d2a27828fd2fe2792d2e7ebd963bbe662f7e9": {
+        "type": "trojan",
+        "family": "Mapin",
+        "url": "https://www.welivesecurity.com/2015/09/22/android-trojan-drops-in-despite-googles-bouncer/",
+        "sha256": "4d8f5e2922e6928a2f8d7d56cc6d2a27828fd2fe2792d2e7ebd963bbe662f7e9"
+    },
+    "ed47a5871132c22bf4b7888908f35cacc2cd0c2a6e8e0afffea61d0e14792ea4": {
+        "type": "adware",
+        "family": "HiddenAd",
+        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/multi-tricks-hiddenads-malware/?hilite=%27android%27%2C%27malware%27",
+        "sha256": "ed47a5871132c22bf4b7888908f35cacc2cd0c2a6e8e0afffea61d0e14792ea4"
+    },
+    "0d7da9b7d6bce9165fa065030ed0a86b40bb52cd4a355e12dea43d496ba5aad1": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "0d7da9b7d6bce9165fa065030ed0a86b40bb52cd4a355e12dea43d496ba5aad1"
+    },
+    "a799fda312167cffb3ef53c4a818eb1d0c9005935779cd9e1c839405cfb63fca": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "a799fda312167cffb3ef53c4a818eb1d0c9005935779cd9e1c839405cfb63fca"
+    },
+    "1d2164fdc7be110224d66910d1a84a06c8627864920f418f2890aff6a5d0d320": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "1d2164fdc7be110224d66910d1a84a06c8627864920f418f2890aff6a5d0d320"
+    },
+    "86eb4574fa0fa4b16ffaac02558110a77b99ef840e8ed32b38547cdfdf14e6ac": {
+        "type": "banker",
+        "family": "ZNIU",
+        "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
+        "sha256": "86eb4574fa0fa4b16ffaac02558110a77b99ef840e8ed32b38547cdfdf14e6ac"
+    },
+    "3bf85d0aff5ddc0c57e43b879631ee692d98d01f5c964336471f1cdfe0d291f8": {
+        "type": "spyware",
+        "family": "CallerSpy",
+        "url": "https://www.trendmicro.com/en_us/research/19/l/mobile-cyberespionage-campaign-distributed-through-callerspy-mounts-initial-phase-of-a-targeted-attack.html",
+        "sha256": "3bf85d0aff5ddc0c57e43b879631ee692d98d01f5c964336471f1cdfe0d291f8"
+    },
+    "2add88505e9050a1c9e5887a9d9b52be30068cc14bba002f40be15e0be307630": {
+        "type": "banker",
+        "family": "Ghimob",
+        "url": "https://securelist.com/ghimob-tetrade-threat-mobile-devices/99228/",
+        "sha256": "2add88505e9050a1c9e5887a9d9b52be30068cc14bba002f40be15e0be307630"
+    },
+    "80c29c908818ebeec6d1f12e4c73019cbac7c8b3f5f06c43d6914242c21cb136": {
+        "type": "banker",
+        "family": "Ghimob",
+        "url": "https://securelist.com/ghimob-tetrade-threat-mobile-devices/99228/",
+        "sha256": "80c29c908818ebeec6d1f12e4c73019cbac7c8b3f5f06c43d6914242c21cb136"
+    },
+    "b015c99ad510c766d7fed64aa18f1ff9a7321f062e9c6d2912144168897d166b": {
+        "type": "banker",
+        "family": "Ghimob",
+        "url": "https://securelist.com/ghimob-tetrade-threat-mobile-devices/99228/",
+        "sha256": "b015c99ad510c766d7fed64aa18f1ff9a7321f062e9c6d2912144168897d166b"
+    },
+    "9d6d6f76410428bc4c457c96f5694606caab92dcaa7e709323fb9e66327cfbeb": {
+        "type": "rootkit",
+        "family": "Godless",
+        "url": "https://www.trendmicro.com/en_us/research/16/f/godless-mobile-malware-uses-multiple-exploits-root-devices.html",
+        "sha256": "9d6d6f76410428bc4c457c96f5694606caab92dcaa7e709323fb9e66327cfbeb"
+    },
+    "c5ca6aa73fdcb523b5e63b52197f134f229792046cbac525d46985ad72880395": {
+        "type": "trojan",
+        "family": "MobOk",
+        "url": "https://gbhackers.com/mobok-malware-via-fake-photo-editing-apps/",
+        "sha256": "c5ca6aa73fdcb523b5e63b52197f134f229792046cbac525d46985ad72880395"
+    },
+    "0c4b08bec1251b1ebc715a7ef1a712cdcb4d37ce0093d88f7fa73b0e05bf7b0e": {
+        "type": "spyware",
+        "family": "CallerSpy",
+        "url": "https://www.trendmicro.com/en_us/research/19/l/mobile-cyberespionage-campaign-distributed-through-callerspy-mounts-initial-phase-of-a-targeted-attack.html",
+        "sha256": "0c4b08bec1251b1ebc715a7ef1a712cdcb4d37ce0093d88f7fa73b0e05bf7b0e"
+    },
+    "7cb0eb93de496e2141b6e0541465ca71a84063867381085692885c75aa59cb1b": {
+        "type": "spyware",
+        "family": "CallerSpy",
+        "url": "https://www.trendmicro.com/en_us/research/19/l/mobile-cyberespionage-campaign-distributed-through-callerspy-mounts-initial-phase-of-a-targeted-attack.html",
+        "sha256": "7cb0eb93de496e2141b6e0541465ca71a84063867381085692885c75aa59cb1b"
+    },
+    "ec5c0f12884158b179a5592002c8e9c10f17035afb27c1f66e53fca8b983e2c0": {
+        "type": "adware",
+        "family": "TOASTAMIGO",
+        "url": "https://www.trendmicro.com/en_us/research/17/k/toast-overlay-weaponized-install-android-malware-single-attack-chain.html",
+        "sha256": "ec5c0f12884158b179a5592002c8e9c10f17035afb27c1f66e53fca8b983e2c0"
+    },
+    "59ec51a43992698a08f8496bc55cf7be4a9ecec381ab638a903f53d72e92247c": {
+        "type": "trojan",
+        "family": "Click",
+        "url": "https://gbhackers.com/clicker-trojan/",
+        "sha256": "59ec51a43992698a08f8496bc55cf7be4a9ecec381ab638a903f53d72e92247c"
+    },
+    "e74ab5be38acd2aa87b3e05aad86e8b9f2fa8bc15c5015b364b8ae810b9d9143": {
+        "type": "rootkit",
+        "family": "ROOTSTV",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "sha256": "e74ab5be38acd2aa87b3e05aad86e8b9f2fa8bc15c5015b364b8ae810b9d9143"
+    },
+    "352630c307a03e9c04d8c0a65969358e7e8c2a6a9d68ee790de864a5b691e47d": {
+        "type": "adware",
+        "family": "GhostClicker",
+        "url": "https://www.trendmicro.com/en_us/research/17/h/ghostclicker-adware-is-a-phantomlike-android-click-fraud.html",
+        "sha256": "352630c307a03e9c04d8c0a65969358e7e8c2a6a9d68ee790de864a5b691e47d"
+    },
+    "58be55b3bc11687c63fb15755a317335f881dece298f9aaf5353c4f35423d6c6": {
+        "type": "rootkit",
+        "family": "ROOTSTV",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "sha256": "58be55b3bc11687c63fb15755a317335f881dece298f9aaf5353c4f35423d6c6"
+    },
+    "96d4ad62d42f2fc20e90f0ef6c8afbf83831f5f1592b0cd0ab4fdb4a090ef86b": {
+        "type": "rootkit",
+        "family": "ROOTSTV",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "sha256": "96d4ad62d42f2fc20e90f0ef6c8afbf83831f5f1592b0cd0ab4fdb4a090ef86b"
+    },
+    "73e5b30c62302d494bea14b0b1bf59efb1f4c93ed7f2a53bf0f074c403fdbd0e": {
+        "type": "spyware",
+        "family": "Monokle",
+        "url": "https://www.lookout.com/documents/threat-reports/lookout-discovers-monokle-threat-report.pdf",
+        "sha256": "73e5b30c62302d494bea14b0b1bf59efb1f4c93ed7f2a53bf0f074c403fdbd0e"
+    },
+    "299b3a90f96b3fc1a4e3eb29be44cb325bd6750228a9342773ce973849507d12": {
+        "type": "ransomware",
+        "family": "LeakerLocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/leakerlocker-mobile-ransomware-threatens-expose-user-information/",
+        "sha256": "299b3a90f96b3fc1a4e3eb29be44cb325bd6750228a9342773ce973849507d12"
+    },
+    "486f80edfb1dea13cde87827b14491e93c189c26830b5350e31b07c787b29387": {
+        "type": "ransomware",
+        "family": "LeakerLocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/leakerlocker-mobile-ransomware-threatens-expose-user-information/",
+        "sha256": "486f80edfb1dea13cde87827b14491e93c189c26830b5350e31b07c787b29387"
+    },
+    "1cd44974c02bb0e758f8bb607c62939c1454e36c9205afc4c4865d9b32fd18b8": {
+        "type": "trojan",
+        "family": "Mapin",
+        "url": "https://www.welivesecurity.com/2015/09/22/android-trojan-drops-in-despite-googles-bouncer/",
+        "sha256": "1cd44974c02bb0e758f8bb607c62939c1454e36c9205afc4c4865d9b32fd18b8"
+    },
+    "58ce4abd526bb056d6b95ed97254816ba9bbfc008182ed91baaff433c8a199b5": {
+        "type": "trojan",
+        "family": "Click",
+        "url": "https://gbhackers.com/clicker-trojan/",
+        "sha256": "58ce4abd526bb056d6b95ed97254816ba9bbfc008182ed91baaff433c8a199b5"
+    },
+    "4aef8d9a3c4cc1e66a6f2c6355ecc38d87d9c81bb2368f4ca07b2a02d2e4923b": {
+        "type": "spyware",
+        "family": "ChatSpy",
+        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/android-spyware-targets-security-job-seekers-in-saudi-arabia/?hilite=%27android%27%2C%27malware%27",
+        "sha256": "4aef8d9a3c4cc1e66a6f2c6355ecc38d87d9c81bb2368f4ca07b2a02d2e4923b"
+    },
+    "d4073a2dd32d06d41cee48241544f03dc7e99f8e96705b8d65fb45c91818c882": {
+        "type": "spyware",
+        "family": "Xavier",
+        "url": "https://www.trendmicro.com/en_us/research/17/f/analyzing-xavier-information-stealing-ad-library-android.html",
+        "sha256": "d4073a2dd32d06d41cee48241544f03dc7e99f8e96705b8d65fb45c91818c882"
+    },
+    "6839b88624eb5bf9a0783293fa7e940fb736ee37f746c68cb880b0b171125d0c": {
+        "type": "spyware",
+        "family": "Xavier",
+        "url": "https://www.trendmicro.com/en_us/research/17/f/analyzing-xavier-information-stealing-ad-library-android.html",
+        "sha256": "6839b88624eb5bf9a0783293fa7e940fb736ee37f746c68cb880b0b171125d0c"
+    },
+    "4701a359647442d9b2d589cbba9ac7cf56949539410dbb4194d9980ec0d6b5d4": {
+        "type": "ransomware",
+        "family": "LeakerLocker",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/leakerlocker-mobile-ransomware-threatens-expose-user-information/",
+        "sha256": "4701a359647442d9b2d589cbba9ac7cf56949539410dbb4194d9980ec0d6b5d4"
+    },
+    "5769f8e5133688978b2e2e5878f968aaac88a8c8ba9dff39bafe74d04c21b40c": {
+        "type": "rootkit",
+        "family": "ROOTSTV",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "sha256": "5769f8e5133688978b2e2e5878f968aaac88a8c8ba9dff39bafe74d04c21b40c"
+    },
+    "ff6ca0e2ccdf44dc78c739b9b94baef1d579ac7f991b52c3f9f505090a5b9d90": {
+        "type": "rootkit",
+        "family": "ROOTSTV",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "sha256": "ff6ca0e2ccdf44dc78c739b9b94baef1d579ac7f991b52c3f9f505090a5b9d90"
+    },
+    "74630208103f9ada2e1fb2a6e7e58eb191d3c9c1603187b89f222c58236a87eb": {
+        "type": "adware",
+        "family": "GhostClicker",
+        "url": "https://www.trendmicro.com/en_us/research/17/h/ghostclicker-adware-is-a-phantomlike-android-click-fraud.html",
+        "sha256": "74630208103f9ada2e1fb2a6e7e58eb191d3c9c1603187b89f222c58236a87eb"
+    },
+    "02ac729e2be729dd5f6be202fb512f6149431add1ed683d115c0a61d5b257219": {
+        "type": "rootkit",
+        "family": "ROOTSTV",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "sha256": "02ac729e2be729dd5f6be202fb512f6149431add1ed683d115c0a61d5b257219"
+    },
+    "0114edb7dbc86bf3e2fe70589749b1dd4bf06ec87fabd85a83e28e4c45569a24": {
+        "type": "rootkit",
+        "family": "ROOTSTV",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "sha256": "0114edb7dbc86bf3e2fe70589749b1dd4bf06ec87fabd85a83e28e4c45569a24"
+    },
+    "b4a8a6b8cd302fe614331d7549ca09b586b0542993d8329d77b65b3cbca3ea37": {
+        "type": "rootkit",
+        "family": "ROOTSTV",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "sha256": "b4a8a6b8cd302fe614331d7549ca09b586b0542993d8329d77b65b3cbca3ea37"
+    },
+    "d8aca3508ee537c0f5b07c6652f2a771c9d7cddd728196669bfcba93b2e5eb2c": {
+        "type": "rootkit",
+        "family": "ROOTSTV",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "sha256": "d8aca3508ee537c0f5b07c6652f2a771c9d7cddd728196669bfcba93b2e5eb2c"
+    },
+    "3327c2a0765817e7c2d5787c1889a9dc9abea9593077b8fb217161de499374bf": {
+        "type": "rootkit",
+        "family": "ROOTSTV",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "sha256": "3327c2a0765817e7c2d5787c1889a9dc9abea9593077b8fb217161de499374bf"
+    },
+    "fd1a4d039bbf641f9b063d83e98b47493b9624793f60f3ba3761cd1c12472e0b": {
+        "type": "rootkit",
+        "family": "ROOTSTV",
+        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "sha256": "fd1a4d039bbf641f9b063d83e98b47493b9624793f60f3ba3761cd1c12472e0b"
+    },
+    "b4822eeb71c83e4aab5ddfecfb58459e5c5e10d382a2364da1c42621f58e119b": {
+        "type": "trojan",
+        "family": "BKOTKLIND",
+        "url": "https://www.trendmicro.com/en_us/research/18/a/first-kotlin-developed-malicious-app-signs-users-premium-sms-services.html",
+        "sha256": "b4822eeb71c83e4aab5ddfecfb58459e5c5e10d382a2364da1c42621f58e119b"
+    },
+    "364a50a23c2b11cd2007d7ee079fce5899c47f3c511b70933e0893cf2bcd21fc": {
+        "type": "rootkit",
+        "family": "Ztorg",
+        "url": "https://securelist.com/ztorg-from-rooting-to-sms/78775/",
+        "sha256": "364a50a23c2b11cd2007d7ee079fce5899c47f3c511b70933e0893cf2bcd21fc"
+    },
+    "0ea026ba05dc81043cf407e6d9da27ed432d9e45e7e2efdd74e6e837bd6948bb": {
+        "type": "adware",
+        "family": "GhostClicker",
+        "url": "https://www.trendmicro.com/en_us/research/17/h/ghostclicker-adware-is-a-phantomlike-android-click-fraud.html",
+        "sha256": "0ea026ba05dc81043cf407e6d9da27ed432d9e45e7e2efdd74e6e837bd6948bb"
+    },
+    "30bf493c79824a255f9b56db74a04e711a59257802f215187faffae9c6c2f8dc": {
+        "type": "adware",
+        "family": "Haken",
+        "url": "https://gbhackers.com/malicious-app-haken-malware/",
+        "sha256": "30bf493c79824a255f9b56db74a04e711a59257802f215187faffae9c6c2f8dc"
+    },
+    "eeb73df9f1910dd3f0aae8abe23804d8c897d869e1941c3539eeaa59ea52067e": {
+        "type": "adware",
+        "family": "AdDisplay",
+        "url": "https://www.welivesecurity.com/2019/10/24/tracking-down-developer-android-adware/",
+        "sha256": "eeb73df9f1910dd3f0aae8abe23804d8c897d869e1941c3539eeaa59ea52067e"
+    },
+    "11ba0e1e5735529763768580c9e187bf1ff0b7ed24f66ac5b4ab2bb2afbf41de": {
+        "type": "adware",
+        "family": "GhostClicker",
+        "url": "https://www.trendmicro.com/en_us/research/17/h/ghostclicker-adware-is-a-phantomlike-android-click-fraud.html",
+        "sha256": "11ba0e1e5735529763768580c9e187bf1ff0b7ed24f66ac5b4ab2bb2afbf41de"
+    },
+    "c1a26c5f28cecb4bc6079de8d7c3283984a68db17f56c869ae7171ab7702d1d6": {
+        "type": "spyware",
+        "family": "Xavier",
+        "url": "https://www.trendmicro.com/en_us/research/17/f/analyzing-xavier-information-stealing-ad-library-android.html",
+        "sha256": "c1a26c5f28cecb4bc6079de8d7c3283984a68db17f56c869ae7171ab7702d1d6"
+    },
+    "1c32dcfc1eac9b34b181da2e3f7d7048df3910b022181e7ef07f1a32e9bb9557": {
+        "type": "adware",
+        "family": "AdDisplay",
+        "url": "https://www.welivesecurity.com/2019/10/24/tracking-down-developer-android-adware/",
+        "sha256": "1c32dcfc1eac9b34b181da2e3f7d7048df3910b022181e7ef07f1a32e9bb9557"
+    },
+    "256285d5b9df3470f91f3c4efb4dce8fe80d91500c382153c8c23d9a62dcfe0e": {
+        "type": "rootkit",
+        "family": "Ztorg",
+        "url": "https://securelist.com/ztorg-money-for-infecting-your-smartphone/78325/",
+        "sha256": "256285d5b9df3470f91f3c4efb4dce8fe80d91500c382153c8c23d9a62dcfe0e"
+    },
+    "a47049094051135631aea2c9954a6bc7e605ff455cd7ef1e0999042b068a841f": {
+        "type": "adware",
+        "family": "Haken",
+        "url": "https://gbhackers.com/malicious-app-haken-malware/",
+        "sha256": "a47049094051135631aea2c9954a6bc7e605ff455cd7ef1e0999042b068a841f"
+    },
+    "7f5c5a5f57650a44c10948926e107ba9e69b98d1cd1ad47af0696b6cccc08d13": {
+        "type": "trojan",
+        "family": "MobOk",
+        "url": "https://gbhackers.com/mobok-malware-via-fake-photo-editing-apps/",
+        "sha256": "7f5c5a5f57650a44c10948926e107ba9e69b98d1cd1ad47af0696b6cccc08d13"
+    },
+    "9a01dcf472c3bd52570ebb94e1a3569836b52cda371095126fc640640c761c92": {
+        "type": "adware",
+        "family": "AdDisplay",
+        "url": "https://www.welivesecurity.com/2019/10/24/tracking-down-developer-android-adware/",
+        "sha256": "9a01dcf472c3bd52570ebb94e1a3569836b52cda371095126fc640640c761c92"
+    },
+    "a42e141443f94e08c76dc92bdeb1243db8bd1618622c974b883381ddf243a55f": {
+        "type": "adware",
+        "family": "AdDisplay",
+        "url": "https://www.welivesecurity.com/2019/10/24/tracking-down-developer-android-adware/",
+        "sha256": "a42e141443f94e08c76dc92bdeb1243db8bd1618622c974b883381ddf243a55f"
+    },
+    "7331d9cd2ec98c9c01eb5d84bf4c783dc89dd62676d17875be2d07dc9ebe358b": {
+        "type": "spyware",
+        "family": "Xavier",
+        "url": "https://www.trendmicro.com/en_us/research/17/f/analyzing-xavier-information-stealing-ad-library-android.html",
+        "sha256": "7331d9cd2ec98c9c01eb5d84bf4c783dc89dd62676d17875be2d07dc9ebe358b"
+    },
+    "3100c112c1df7b25707fb81206dcce76d9c1ccb1ef1617cf9a3b4837784ecc5e": {
+        "type": "banker",
+        "family": "FAKEBANK",
+        "url": "https://securityaffairs.com/26900/cyber-crime/operation-emmental-banking.html",
+        "sha256": "3100c112c1df7b25707fb81206dcce76d9c1ccb1ef1617cf9a3b4837784ecc5e"
+    },
+    "9a3e4f97dddadaaaf0fa7318576ce45c67ce329f9dc1cecd7fba626aec06f516": {
+        "type": "banker",
+        "family": "FAKEBANK",
+        "url": "https://securityaffairs.com/26900/cyber-crime/operation-emmental-banking.html",
+        "sha256": "9a3e4f97dddadaaaf0fa7318576ce45c67ce329f9dc1cecd7fba626aec06f516"
+    },
+    "c5cdba8771e2aee76d5bad8c2e225cd4a642050a7cfa6f22132edf607de42349": {
+        "type": "banker",
+        "family": "FAKEBANK",
+        "url": "https://securityaffairs.com/26900/cyber-crime/operation-emmental-banking.html",
+        "sha256": "c5cdba8771e2aee76d5bad8c2e225cd4a642050a7cfa6f22132edf607de42349"
+    },
+    "b8a70081136fce7ec11cf218f23dd37ac7c74db44c0367d35f64cd9e3bf58c17": {
+        "type": "banker",
+        "family": "FAKEBANK",
+        "url": "https://securityaffairs.com/26900/cyber-crime/operation-emmental-banking.html",
+        "sha256": "b8a70081136fce7ec11cf218f23dd37ac7c74db44c0367d35f64cd9e3bf58c17"
+    },
+    "ebb512854976651194160b9faa0b83e225076268b490f38321aad0171fa17548": {
+        "type": "banker",
+        "family": "FAKEBANK",
+        "url": "https://securityaffairs.com/26900/cyber-crime/operation-emmental-banking.html",
+        "sha256": "ebb512854976651194160b9faa0b83e225076268b490f38321aad0171fa17548"
+    },
+    "1480df67bc531d4be71ec14016b7b98926cbd73a11f7016e2d543a0bdd13dbea": {
+        "type": "spyware",
+        "family": "Xavier",
+        "url": "https://www.trendmicro.com/en_us/research/17/f/analyzing-xavier-information-stealing-ad-library-android.html",
+        "sha256": "1480df67bc531d4be71ec14016b7b98926cbd73a11f7016e2d543a0bdd13dbea"
+    },
+    "800d0de11cc1790a09ae1c224f5bf989d03fa121ad6485c17bd0bf207f967d5b": {
+        "type": "adware",
+        "family": "hiddad",
+        "url": "https://www.welivesecurity.com/2017/03/08/aggressive-ad-displaying-google-play-app-tricks-users-leaving-high-ratings/",
+        "sha256": "800d0de11cc1790a09ae1c224f5bf989d03fa121ad6485c17bd0bf207f967d5b"
+    },
+    "8da47b68007fb11963d5eb9a428d21cace5908500fc2e56e15ab8269f375c2f4": {
+        "type": "adware",
+        "family": "hiddad",
+        "url": "https://www.welivesecurity.com/2017/03/08/aggressive-ad-displaying-google-play-app-tricks-users-leaving-high-ratings/",
+        "sha256": "8da47b68007fb11963d5eb9a428d21cace5908500fc2e56e15ab8269f375c2f4"
+    },
+    "5f5d1ed09f98ae4d1ed9c3349dc400b1a36f2723093fbb4d1df5c5d7237e704a": {
+        "type": "spyware",
+        "family": "Xavier",
+        "url": "https://www.trendmicro.com/en_us/research/17/f/analyzing-xavier-information-stealing-ad-library-android.html",
+        "sha256": "5f5d1ed09f98ae4d1ed9c3349dc400b1a36f2723093fbb4d1df5c5d7237e704a"
+    },
+    "30c90d4ec57d80c88c1a17bb50d2b76dc2eb66fd19a0c7045a07ed682b338501": {
+        "type": "adware",
+        "family": "TOASTAMIGO",
+        "url": "https://www.trendmicro.com/en_us/research/17/k/toast-overlay-weaponized-install-android-malware-single-attack-chain.html",
+        "sha256": "30c90d4ec57d80c88c1a17bb50d2b76dc2eb66fd19a0c7045a07ed682b338501"
+    }
+}
