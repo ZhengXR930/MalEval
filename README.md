@@ -8,6 +8,9 @@ It contains:
 + Raw APKs
 + The info/ folder in this repository stores the original report links corresponding to each sample
 
+![MalEval Overview](figs/Arch.png)
+
+
 ```
 MalEval/
 ├── src/ # source code for context preparation and evaluation
@@ -16,4 +19,3 @@ MalEval/
 ├── requirements.txt # pip dependencies
 └── README.md # project description
 ```
-![MalEval Overview](figs/Arch.png)
