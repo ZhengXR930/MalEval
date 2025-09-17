@@ -16,3 +16,4 @@ MalEval/
 ├── requirements.txt # pip dependencies
 └── README.md # project description
 
+![MalEval Overview](figs/Arch.png)
