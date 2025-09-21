@@ -1,4 +1,7 @@
 ## MalEval 
+
+[arxiv](https://arxiv.org/pdf/2509.14335)
+
 This repository contains the source code of MalEval, an evaluation framework for Android malware behavior auditing, focusing on explaining and substantiating malicious behaviors. The framework provides expert-verified reports, curated metadata, and model outputs to enable reproducible evaluation of Large Language Models (LLMs) in malware auditing tasks. This evaluation framework defines four analyst-aligned evaluation tasks—function prioritization, evidence attribution, behavior synthesis, and sample discrimination—with domain-specific metrics and a unified workload-oriented score. MalEval contains 255 malware samples with corresponding raw and parsed behavior reports. Dataset can be downloaded from: [MalEval](https://huggingface.co/datasets/Xinzxr/MalEval).
 
 It contains:
