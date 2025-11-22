@@ -1,6 +1,6 @@
 {
     "54df8a318b1b910bbf8437fdae2fd027296dffda228f5ef42babce0492c98cca": {
-        "type": "rootkit",
+        "type": "trojan",
         "family": "Ztorg",
         "url": "https://securelist.com/ztorg-money-for-infecting-your-smartphone/78325/",
         "sha256": "54df8a318b1b910bbf8437fdae2fd027296dffda228f5ef42babce0492c98cca"
@@ -36,7 +36,7 @@
         "sha256": "a0f3df39d20c4eaa410a61a527507dbc6b17c7f974f76e13181e98225bda0511"
     },
     "d3c91d70b028537d275e603bd36a14bc42555f089e5db6d17e3a652ff99ecd0d": {
-        "type": "rootkit",
+        "type": "trojan",
         "family": "Ztorg",
         "url": "https://securelist.com/rooting-pokemons-in-google-play-store/76081/",
         "sha256": "d3c91d70b028537d275e603bd36a14bc42555f089e5db6d17e3a652ff99ecd0d"
@@ -50,25 +50,25 @@
     "53136f6cea9c04cf139c42a0f9b863c87bb1a3114010c324106d85a401fd8caf": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "53136f6cea9c04cf139c42a0f9b863c87bb1a3114010c324106d85a401fd8caf"
     },
     "5bff2298944632cc50a17f88ea59acf64e6093f2a4b4cba6841b38ede0f26c3d": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "5bff2298944632cc50a17f88ea59acf64e6093f2a4b4cba6841b38ede0f26c3d"
     },
     "026733eb26ff09111ce389b56eaf431271812dfe28b426cb171c722eb41d62d7": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "026733eb26ff09111ce389b56eaf431271812dfe28b426cb171c722eb41d62d7"
     },
     "6e5bbedce0f2cffcadf0397282861b8694ad9111fe566da934fc11ee25827f03": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "6e5bbedce0f2cffcadf0397282861b8694ad9111fe566da934fc11ee25827f03"
     },
     "8a0f0b791661076332e9da5c7a269a2215585acedff66c75687ff38ef41e7e27": {
@@ -80,47 +80,47 @@
     "cde39a1338905b1c0d5a899378c9428a48d6ca01cb55396c03268da939d3dd4a": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "cde39a1338905b1c0d5a899378c9428a48d6ca01cb55396c03268da939d3dd4a"
     },
     "1ed647cb7a0f145d2e84fdfc7adc2e865c312dbe574c4ab4298173ec7e9fcab5": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "1ed647cb7a0f145d2e84fdfc7adc2e865c312dbe574c4ab4298173ec7e9fcab5"
     },
     "5212b6a8dd17ccfc60f671c82f45f4885e0abcc354da3d007746599f10340774": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "5212b6a8dd17ccfc60f671c82f45f4885e0abcc354da3d007746599f10340774"
     },
     "b16a904af7ebeb3b3a9c8fef342c60eab83dfa6867acdbaa6f55c1f06b974123": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "b16a904af7ebeb3b3a9c8fef342c60eab83dfa6867acdbaa6f55c1f06b974123"
     },
     "de990c12617f7cd01e2b810bc33af4ae43b6e7c43430f7039252ac93416d5223": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "de990c12617f7cd01e2b810bc33af4ae43b6e7c43430f7039252ac93416d5223"
     },
     "16c497c382492c0132d581a4ece0ef0ab6c8ba7b265a9d7b0f6d47d9871d5e06": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "16c497c382492c0132d581a4ece0ef0ab6c8ba7b265a9d7b0f6d47d9871d5e06"
     },
     "decb041278048c001142232ae9374d86489a011af922d2f1803eaebe690daca0": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "decb041278048c001142232ae9374d86489a011af922d2f1803eaebe690daca0"
     },
     "7682e02105fe576b37d38d3732fdd021b88978a08b466cc82aab357a1fc69f50": {
-        "type": "spyware",
+        "type": "banker",
         "family": "FakeSpy",
         "url": "https://www.trendmicro.com/en_us/research/18/f/fakespy-android-information-stealing-malware-targets-japanese-and-korean-speaking-users.html",
         "sha256": "7682e02105fe576b37d38d3732fdd021b88978a08b466cc82aab357a1fc69f50"
@@ -128,7 +128,7 @@
     "8fff1bf0bfa618b6350da5d99a620c21bd6f88a8711469575aa449a947cf6e96": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "8fff1bf0bfa618b6350da5d99a620c21bd6f88a8711469575aa449a947cf6e96"
     },
     "6f20f227f79debfdae32233b59f4dc15c7faf05036b21e8cd46b24ebc52f0bf8": {
@@ -140,7 +140,7 @@
     "ae3f772b12d4c97b4377dfadfe01528411811d22f8708a2b33a10494461ec2e4": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "ae3f772b12d4c97b4377dfadfe01528411811d22f8708a2b33a10494461ec2e4"
     },
     "b125ea78fb390950893d146a51f513440314be7648207b59e5d0a1752740f273": {
@@ -194,7 +194,7 @@
     "bc0b9bcaddce6ef5a0bab3ba1b278de110e00f8f8a1cf1c64e782740b0bc2f6d": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "bc0b9bcaddce6ef5a0bab3ba1b278de110e00f8f8a1cf1c64e782740b0bc2f6d"
     },
     "c83cc0a54946cac985327ea3b49adafaceacbb9a5a2b1384708dd8d856e52d39": {
@@ -282,19 +282,19 @@
         "sha256": "18da21d688317ba1eb704b9127757d1c9feeac362537fccd7e68ecb7e06adeb9"
     },
     "d2c0ced8bbd2a30c2ec726065d5bf0e124a5949418eb19fc8b94a5541695c1b9": {
-        "type": "spyware",
+        "type": "ransomware",
         "family": "Lucy",
         "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
         "sha256": "d2c0ced8bbd2a30c2ec726065d5bf0e124a5949418eb19fc8b94a5541695c1b9"
     },
     "0ac1a48c7b3d17afb258be9f0fcb03720129d9939f7fbac741dbb6042012045a": {
-        "type": "spyware",
+        "type": "ransomware",
         "family": "Lucy",
         "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
         "sha256": "0ac1a48c7b3d17afb258be9f0fcb03720129d9939f7fbac741dbb6042012045a"
     },
     "283892cbf8ff13ddf499835185d54bb2fa4c86864eaecf5de231c67f6d14da82": {
-        "type": "spyware",
+        "type": "ransomware",
         "family": "Lucy",
         "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
         "sha256": "283892cbf8ff13ddf499835185d54bb2fa4c86864eaecf5de231c67f6d14da82"
@@ -306,7 +306,7 @@
         "sha256": "728a6ea44aab94a2d0ebbccbf0c1b4a93fbd9efa8813c19a88d368d6a46b4f4f"
     },
     "20acb6c9de4eb8764a7d91034c4065adb0b9e5f7afb8183ff9abc1d09bff20fd": {
-        "type": "spyware",
+        "type": "ransomware",
         "family": "Lucy",
         "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
         "sha256": "20acb6c9de4eb8764a7d91034c4065adb0b9e5f7afb8183ff9abc1d09bff20fd"
@@ -324,31 +324,31 @@
         "sha256": "3f2ed928789c200e21fd0c2095619a346f75d84f76f1e54a8b3153385850ea63"
     },
     "a2bd3ed53c78b4e9daf8b1d732464423ef8bc7e7f8efc78188107632d8dbf749": {
-        "type": "spyware",
+        "type": "ransomware",
         "family": "Lucy",
         "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
         "sha256": "a2bd3ed53c78b4e9daf8b1d732464423ef8bc7e7f8efc78188107632d8dbf749"
     },
     "c6e27280f6f7d3199bff21018fb1fa6f9338b81f3572b010ab5467fe54649a19": {
-        "type": "spyware",
+        "type": "ransomware",
         "family": "Lucy",
         "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
         "sha256": "c6e27280f6f7d3199bff21018fb1fa6f9338b81f3572b010ab5467fe54649a19"
     },
     "c18c5ca32b80d4b595500853e1899d03edbe954d1e79da14f167aa888918d547": {
-        "type": "spyware",
+        "type": "ransomware",
         "family": "Lucy",
         "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
         "sha256": "c18c5ca32b80d4b595500853e1899d03edbe954d1e79da14f167aa888918d547"
     },
     "3144526d354e29e5cc3985a8f06513627b98441d6db745b96fe85e78bf17b066": {
-        "type": "spyware",
+        "type": "ransomware",
         "family": "Lucy",
         "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
         "sha256": "3144526d354e29e5cc3985a8f06513627b98441d6db745b96fe85e78bf17b066"
     },
     "f1dd83ae85d1c91e09643657e19242f90a39a238d28cd3ece9b91379c768e471": {
-        "type": "spyware",
+        "type": "ransomware",
         "family": "Lucy",
         "url": "https://research.checkpoint.com/2020/lucys-back-ransomware-goes-mobile/",
         "sha256": "f1dd83ae85d1c91e09643657e19242f90a39a238d28cd3ece9b91379c768e471"
@@ -378,7 +378,7 @@
         "sha256": "cc450300221377e1b90b496c654a90a27e148dfecffa86d8d2c4846fad714652"
     },
     "5324460dfe1d4f774a024ecc375e3a858c96355f71afccf0cb67438037697b06": {
-        "type": "rootkit",
+        "type": "trojan",
         "family": "Ztorg",
         "url": "https://www.anquanke.com/post/id/85787",
         "sha256": "5324460dfe1d4f774a024ecc375e3a858c96355f71afccf0cb67438037697b06"
@@ -390,7 +390,7 @@
         "sha256": "63cb0e4e97a02de706c68c44b4bda211b037a5c21176fadf12e1cea88d25f1a0"
     },
     "62347708c5db102397e4be4c9fc21f51af0efa1b25ac531286f537e93388fb2e": {
-        "type": "rootkit",
+        "type": "trojan",
         "family": "Ztorg",
         "url": "https://securelist.com/ztorg-money-for-infecting-your-smartphone/78325/",
         "sha256": "62347708c5db102397e4be4c9fc21f51af0efa1b25ac531286f537e93388fb2e"
@@ -410,25 +410,25 @@
     "36f40d5a11d886a2280c57859cd5f22de2d78c87dcdb52ea601089745eeee494": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://www.trendmicro.com/en_us/research/17/g/slocker-mobile-ransomware-starts-mimicking-wannacry.html",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "36f40d5a11d886a2280c57859cd5f22de2d78c87dcdb52ea601089745eeee494"
     },
     "200d8f98c326fc65f3a11dc5ff1951051c12991cc0996273eeb9b71b27bc294d": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://www.trendmicro.com/en_us/research/17/g/slocker-mobile-ransomware-starts-mimicking-wannacry.html",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "200d8f98c326fc65f3a11dc5ff1951051c12991cc0996273eeb9b71b27bc294d"
     },
     "2ffd539d462847bebcdff658a83f74ca7f039946bbc6c6247be2fc62dc0e4060": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://www.trendmicro.com/en_us/research/17/g/slocker-mobile-ransomware-starts-mimicking-wannacry.html",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "2ffd539d462847bebcdff658a83f74ca7f039946bbc6c6247be2fc62dc0e4060"
     },
     "cb0a18bcc8a2c9a966d3f585771db8b2e627a7b4427a889191a93b3a1b261ba3": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://www.trendmicro.com/en_us/research/17/g/slocker-mobile-ransomware-starts-mimicking-wannacry.html",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "cb0a18bcc8a2c9a966d3f585771db8b2e627a7b4427a889191a93b3a1b261ba3"
     },
     "6aa59e516b662d1b23f09b04e12ceac86f4ee001111c2f727b149249d08b963c": {
@@ -522,13 +522,13 @@
         "sha256": "00e82927b20d2db5bdfc6bff77f6841d0e59af80adce3f86f90277669159e5f3"
     },
     "ca112c63ec11491bea459353299f155fd580e18a1beae99d89f9e4c1ad1eec55": {
-        "type": "spyware",
+        "type": "banker",
         "family": "FakeSpy",
         "url": "https://www.trendmicro.com/en_us/research/18/f/fakespy-android-information-stealing-malware-targets-japanese-and-korean-speaking-users.html",
         "sha256": "ca112c63ec11491bea459353299f155fd580e18a1beae99d89f9e4c1ad1eec55"
     },
     "3a41f07537b31171e380ec7b7ec3e5a9d5a03bc82ce718ebb44c7504d348c57a": {
-        "type": "spyware",
+        "type": "banker",
         "family": "FakeSpy",
         "url": "https://www.trendmicro.com/en_us/research/18/f/fakespy-android-information-stealing-malware-targets-japanese-and-korean-speaking-users.html",
         "sha256": "3a41f07537b31171e380ec7b7ec3e5a9d5a03bc82ce718ebb44c7504d348c57a"
@@ -642,7 +642,7 @@
         "sha256": "ab51dcd0629758743ed1aa48531a71852a49454cc9c90f37fbedb8c02547d258"
     },
     "969f5a67fcbe15ae7e94188bccf84434745959ff42b0bf16e45ad045ca8aac2d": {
-        "type": "trojan",
+        "type": "spyware",
         "family": "Inazigram",
         "url": "https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/",
         "sha256": "969f5a67fcbe15ae7e94188bccf84434745959ff42b0bf16e45ad045ca8aac2d"
@@ -684,7 +684,7 @@
         "sha256": "9501ca777fcfcf723a67d1b0b79f5a1a16113c8027ed72e434017ed5eafe84ef"
     },
     "d3d80d736245674492327ca0315488ea9ddc670278f84e52daca313751344526": {
-        "type": "trojan",
+        "type": "spyware",
         "family": "Inazigram",
         "url": "https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/",
         "sha256": "d3d80d736245674492327ca0315488ea9ddc670278f84e52daca313751344526"
@@ -708,7 +708,7 @@
         "sha256": "c1d9a61fdfe9c8dfb8b4482f18886cc74271b6dc63dd6eeb8605d576716c0842"
     },
     "8db04b4fac4cd4368a85dfad85e16e9acadc301700532302687dc273f028bdbd": {
-        "type": "rootkit",
+        "type": "trojan",
         "family": "Ztorg",
         "url": "https://securelist.com/ztorg-money-for-infecting-your-smartphone/78325/",
         "sha256": "8db04b4fac4cd4368a85dfad85e16e9acadc301700532302687dc273f028bdbd"
@@ -720,7 +720,7 @@
         "sha256": "5e03ee92805cc086e26ec951c6f0deb802f72e047fc9c3efc3a649884c0973c6"
     },
     "6ca48ef560e3ee8d4064925c26a1fe81a69896d520c63232f8289f111ec0e7a6": {
-        "type": "trojan",
+        "type": "spyware",
         "family": "Inazigram",
         "url": "https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/",
         "sha256": "6ca48ef560e3ee8d4064925c26a1fe81a69896d520c63232f8289f111ec0e7a6"
@@ -738,7 +738,7 @@
         "sha256": "a5ba85f082785c4368ac9d16663636d297ebc6eefacb5ab6303abac765de1b4c"
     },
     "72295413a7d8ea14625affa511a58eda8771d2bc0dbc7eb300c87fc4a30bb8ef": {
-        "type": "trojan",
+        "type": "spyware",
         "family": "Inazigram",
         "url": "https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/",
         "sha256": "72295413a7d8ea14625affa511a58eda8771d2bc0dbc7eb300c87fc4a30bb8ef"
@@ -757,12 +757,12 @@
     },
     "868e0a1904d2f9c142adca02bc5834035873ad3d5c97a2815cf3c1cd2d961355": {
         "type": "spyware",
-        "family": "Fanta",
+        "family": "banker",
         "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
         "sha256": "868e0a1904d2f9c142adca02bc5834035873ad3d5c97a2815cf3c1cd2d961355"
     },
     "464474b7bd50c61ba117573d1def10b047c5c113a02034ccaed91b99754e0098": {
-        "type": "trojan",
+        "type": "spyware",
         "family": "Inazigram",
         "url": "https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/",
         "sha256": "464474b7bd50c61ba117573d1def10b047c5c113a02034ccaed91b99754e0098"
@@ -774,7 +774,7 @@
         "sha256": "4cdbd105ab8117620731630f8f89eb2e6110dbf6341df43712a0ec9837c5a9be"
     },
     "ba5b031324a2a2bd9398cf695a7d8aea8aae0af27bf414a0108a7a362bebbf11": {
-        "type": "trojan",
+        "type": "spyware",
         "family": "Inazigram",
         "url": "https://www.welivesecurity.com/2017/03/09/new-instagram-credentials-stealers-discovered-google-play/",
         "sha256": "ba5b031324a2a2bd9398cf695a7d8aea8aae0af27bf414a0108a7a362bebbf11"
@@ -786,105 +786,105 @@
         "sha256": "6e995d68c724f121d43ec2ff59bc4e536192360afa3beaec5646f01094f0b745"
     },
     "15f5f65b46d79291ef005e4268c3e0c785dcffc49da01debb95ab2b3575f4da2": {
-        "type": "trojan",
+        "type": "rootkit",
         "family": "LIBSKIN",
         "url": "https://www.trendmicro.com/en_us/research/16/b/user-beware-rooting-malware-found-in-3rd-party-app-stores.html",
         "sha256": "15f5f65b46d79291ef005e4268c3e0c785dcffc49da01debb95ab2b3575f4da2"
     },
     "36e74d155ad6ce0b3d546558c8f24d047088400cb923e2ae38990b3ff6c662ee": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "36e74d155ad6ce0b3d546558c8f24d047088400cb923e2ae38990b3ff6c662ee"
     },
     "d2dd11684e7cd53a134215f173d1bf36c0f5fbdd5a41294cbc032ec8180313f1": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "d2dd11684e7cd53a134215f173d1bf36c0f5fbdd5a41294cbc032ec8180313f1"
     },
     "2fdb1d7e66332d9398f47d7cb06bfd38a335e5311a201adb60e36c9b5f031279": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "2fdb1d7e66332d9398f47d7cb06bfd38a335e5311a201adb60e36c9b5f031279"
     },
     "7d81852ead34bb3f87e228f5cb69e7844f51b642d0c45929ceb11ffcbe12e6d6": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "7d81852ead34bb3f87e228f5cb69e7844f51b642d0c45929ceb11ffcbe12e6d6"
     },
     "c4c9c2befe7c283ddc3885eef5380bf35ae59def84e58783c0aad43b9e3f321d": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "c4c9c2befe7c283ddc3885eef5380bf35ae59def84e58783c0aad43b9e3f321d"
     },
     "d9de2f8b99643a3d46125c7517dea093ed8eaea3107127c000b6b7acfd9f65b4": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "d9de2f8b99643a3d46125c7517dea093ed8eaea3107127c000b6b7acfd9f65b4"
     },
     "d0a75e9233d8098f87182d53cd40787bc6f9b671c0f25c3bacdd361ced24741c": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "d0a75e9233d8098f87182d53cd40787bc6f9b671c0f25c3bacdd361ced24741c"
     },
     "2d7c660b4899bcf4e2efd1473d30af3e0859d003a3b3d531cf84924207debd99": {
-        "type": "spyware",
+        "type": "banker",
         "family": "Fanta",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "url": "https://www.fortinet.com/blog/threat-research/analyzing-android-malware-using-a-fortisandbox",
         "sha256": "2d7c660b4899bcf4e2efd1473d30af3e0859d003a3b3d531cf84924207debd99"
     },
     "6d4ece4c5712995af7b76a03b535a3eaf10fcdca20f892f8dc9bdaf3fa85d590": {
-        "type": "spyware",
+        "type": "banker",
         "family": "Fanta",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "url": "https://www.fortinet.com/blog/threat-research/analyzing-android-malware-using-a-fortisandbox",
         "sha256": "6d4ece4c5712995af7b76a03b535a3eaf10fcdca20f892f8dc9bdaf3fa85d590"
     },
     "a15bedfbbdc7022a0b271f26ea333d409486d902166368a6a583a8868e4ea9c9": {
-        "type": "spyware",
+        "type": "banker",
         "family": "Fanta",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "url": "https://www.fortinet.com/blog/threat-research/analyzing-android-malware-using-a-fortisandbox",
         "sha256": "a15bedfbbdc7022a0b271f26ea333d409486d902166368a6a583a8868e4ea9c9"
     },
     "44c4b9bdcb9840302f928ff035c32e8ecb0328ea5fb712d30510104f57352982": {
-        "type": "spyware",
+        "type": "banker",
         "family": "Fanta",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "url": "https://www.fortinet.com/blog/threat-research/analyzing-android-malware-using-a-fortisandbox",
         "sha256": "44c4b9bdcb9840302f928ff035c32e8ecb0328ea5fb712d30510104f57352982"
     },
     "30c37ed427252d8fd03dd0df39373c9ad4051b576a36dcfccd479a32ef8c97fa": {
-        "type": "spyware",
+        "type": "banker",
         "family": "Fanta",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "url": "https://www.fortinet.com/blog/threat-research/analyzing-android-malware-using-a-fortisandbox",
         "sha256": "30c37ed427252d8fd03dd0df39373c9ad4051b576a36dcfccd479a32ef8c97fa"
     },
     "7570817d4ecbd535a8e2bd3d69a53f51fd96d0b9fa1085146ab974c1a4766a81": {
-        "type": "spyware",
+        "type": "banker",
         "family": "Fanta",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/fake-bank-app-phishes-credentials-locks-users-out/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Anti-MalwareBlog+%28Trendlabs+Security+Intelligence+Blog%29",
+        "url": "https://www.fortinet.com/blog/threat-research/analyzing-android-malware-using-a-fortisandbox",
         "sha256": "7570817d4ecbd535a8e2bd3d69a53f51fd96d0b9fa1085146ab974c1a4766a81"
     },
     "d835cf9d88eabc8508f130745fa786385fd7c2cc9c5f29b2da5e6c2dc8372fa6": {
         "type": "ransomware",
         "family": "Slocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/new-wannacry-mimicking-slocker-abuses-qq-services/",
+        "url": "https://blog.trendmicro.com.tw/?p=51736",
         "sha256": "d835cf9d88eabc8508f130745fa786385fd7c2cc9c5f29b2da5e6c2dc8372fa6"
     },
     "000f9f1ce27a57be4db1a0700e680bf36871e2237f18416fe442de0084fa063b": {
         "type": "rootkit",
         "family": "Godless",
-        "url": "https://www.trendmicro.com/en_us/research/16/f/godless-mobile-malware-uses-multiple-exploits-root-devices.html",
+        "url": "https://www.whizlabs.com/blog/godless-android-malware/",
         "sha256": "000f9f1ce27a57be4db1a0700e680bf36871e2237f18416fe442de0084fa063b"
     },
     "a346ac7b3dec5c8cabb758d73eb0941f427806db6f572c2453c19223ddf55fe4": {
         "type": "rootkit",
         "family": "ROOTSTV",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "url": "https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/Steckbriefe-aktueller-Botnetze/Steckbriefe/Rootstv/rootstv_node.html",
         "sha256": "a346ac7b3dec5c8cabb758d73eb0941f427806db6f572c2453c19223ddf55fe4"
     },
     "a2af4b765c709860e35974f4744eb7eef5032a6af9b1a97b3946ae550080a3f8": {
@@ -932,17 +932,17 @@
     "d82330e1d84c2f866a0ff21093cb9669aaef2b07bf430541ab6182f98f6fdf82": {
         "type": "ransomware",
         "family": "LeakerLocker",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/leakerlocker-mobile-ransomware-threatens-expose-user-information/",
+        "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/leakerlocker-mobile-ransomware-acts-without-encryption/",
         "sha256": "d82330e1d84c2f866a0ff21093cb9669aaef2b07bf430541ab6182f98f6fdf82"
     },
     "60f3d4d76cf232372ef569063e01237f5081c45c2e4fecde5fde0da25f0d7484": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "60f3d4d76cf232372ef569063e01237f5081c45c2e4fecde5fde0da25f0d7484"
     },
     "b2c7f10d758971d09bc4d6b456bac61c3b395ef20de4d56612f243ac1d1031f1": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "b2c7f10d758971d09bc4d6b456bac61c3b395ef20de4d56612f243ac1d1031f1"
@@ -954,7 +954,7 @@
         "sha256": "f66338e09554693a9d250cec8f89ed5087869d6d75a587078888578316c6a0a0"
     },
     "723f97ff8f1f14ea4bf80ce83fcab21d03816bb8a7ac49c198e080d6e286a5b1": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "723f97ff8f1f14ea4bf80ce83fcab21d03816bb8a7ac49c198e080d6e286a5b1"
@@ -972,25 +972,25 @@
         "sha256": "ed47a5871132c22bf4b7888908f35cacc2cd0c2a6e8e0afffea61d0e14792ea4"
     },
     "0d7da9b7d6bce9165fa065030ed0a86b40bb52cd4a355e12dea43d496ba5aad1": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "0d7da9b7d6bce9165fa065030ed0a86b40bb52cd4a355e12dea43d496ba5aad1"
     },
     "a799fda312167cffb3ef53c4a818eb1d0c9005935779cd9e1c839405cfb63fca": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "a799fda312167cffb3ef53c4a818eb1d0c9005935779cd9e1c839405cfb63fca"
     },
     "1d2164fdc7be110224d66910d1a84a06c8627864920f418f2890aff6a5d0d320": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "1d2164fdc7be110224d66910d1a84a06c8627864920f418f2890aff6a5d0d320"
     },
     "86eb4574fa0fa4b16ffaac02558110a77b99ef840e8ed32b38547cdfdf14e6ac": {
-        "type": "banker",
+        "type": "rootkit",
         "family": "ZNIU",
         "url": "https://www.trendmicro.com/en_us/research/17/i/zniu-first-android-malware-exploit-dirty-cow-vulnerability.html",
         "sha256": "86eb4574fa0fa4b16ffaac02558110a77b99ef840e8ed32b38547cdfdf14e6ac"
@@ -1022,7 +1022,7 @@
     "9d6d6f76410428bc4c457c96f5694606caab92dcaa7e709323fb9e66327cfbeb": {
         "type": "rootkit",
         "family": "Godless",
-        "url": "https://www.trendmicro.com/en_us/research/16/f/godless-mobile-malware-uses-multiple-exploits-root-devices.html",
+        "url": "https://www.whizlabs.com/blog/godless-android-malware/",
         "sha256": "9d6d6f76410428bc4c457c96f5694606caab92dcaa7e709323fb9e66327cfbeb"
     },
     "c5ca6aa73fdcb523b5e63b52197f134f229792046cbac525d46985ad72880395": {
@@ -1058,7 +1058,7 @@
     "e74ab5be38acd2aa87b3e05aad86e8b9f2fa8bc15c5015b364b8ae810b9d9143": {
         "type": "rootkit",
         "family": "ROOTSTV",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "url": "https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/Steckbriefe-aktueller-Botnetze/Steckbriefe/Rootstv/rootstv_node.html",
         "sha256": "e74ab5be38acd2aa87b3e05aad86e8b9f2fa8bc15c5015b364b8ae810b9d9143"
     },
     "352630c307a03e9c04d8c0a65969358e7e8c2a6a9d68ee790de864a5b691e47d": {
@@ -1070,13 +1070,13 @@
     "58be55b3bc11687c63fb15755a317335f881dece298f9aaf5353c4f35423d6c6": {
         "type": "rootkit",
         "family": "ROOTSTV",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "url": "https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/Steckbriefe-aktueller-Botnetze/Steckbriefe/Rootstv/rootstv_node.html",
         "sha256": "58be55b3bc11687c63fb15755a317335f881dece298f9aaf5353c4f35423d6c6"
     },
     "96d4ad62d42f2fc20e90f0ef6c8afbf83831f5f1592b0cd0ab4fdb4a090ef86b": {
         "type": "rootkit",
         "family": "ROOTSTV",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "url": "https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/Steckbriefe-aktueller-Botnetze/Steckbriefe/Rootstv/rootstv_node.html",
         "sha256": "96d4ad62d42f2fc20e90f0ef6c8afbf83831f5f1592b0cd0ab4fdb4a090ef86b"
     },
     "73e5b30c62302d494bea14b0b1bf59efb1f4c93ed7f2a53bf0f074c403fdbd0e": {
@@ -1136,13 +1136,13 @@
     "5769f8e5133688978b2e2e5878f968aaac88a8c8ba9dff39bafe74d04c21b40c": {
         "type": "rootkit",
         "family": "ROOTSTV",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "url": "https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/Steckbriefe-aktueller-Botnetze/Steckbriefe/Rootstv/rootstv_node.html",
         "sha256": "5769f8e5133688978b2e2e5878f968aaac88a8c8ba9dff39bafe74d04c21b40c"
     },
     "ff6ca0e2ccdf44dc78c739b9b94baef1d579ac7f991b52c3f9f505090a5b9d90": {
         "type": "rootkit",
         "family": "ROOTSTV",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "url": "https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/Steckbriefe-aktueller-Botnetze/Steckbriefe/Rootstv/rootstv_node.html",
         "sha256": "ff6ca0e2ccdf44dc78c739b9b94baef1d579ac7f991b52c3f9f505090a5b9d90"
     },
     "74630208103f9ada2e1fb2a6e7e58eb191d3c9c1603187b89f222c58236a87eb": {
@@ -1154,37 +1154,37 @@
     "02ac729e2be729dd5f6be202fb512f6149431add1ed683d115c0a61d5b257219": {
         "type": "rootkit",
         "family": "ROOTSTV",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "url": "https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/Steckbriefe-aktueller-Botnetze/Steckbriefe/Rootstv/rootstv_node.html",
         "sha256": "02ac729e2be729dd5f6be202fb512f6149431add1ed683d115c0a61d5b257219"
     },
     "0114edb7dbc86bf3e2fe70589749b1dd4bf06ec87fabd85a83e28e4c45569a24": {
         "type": "rootkit",
         "family": "ROOTSTV",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "url": "https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/Steckbriefe-aktueller-Botnetze/Steckbriefe/Rootstv/rootstv_node.html",
         "sha256": "0114edb7dbc86bf3e2fe70589749b1dd4bf06ec87fabd85a83e28e4c45569a24"
     },
     "b4a8a6b8cd302fe614331d7549ca09b586b0542993d8329d77b65b3cbca3ea37": {
         "type": "rootkit",
         "family": "ROOTSTV",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "url": "https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/Steckbriefe-aktueller-Botnetze/Steckbriefe/Rootstv/rootstv_node.html",
         "sha256": "b4a8a6b8cd302fe614331d7549ca09b586b0542993d8329d77b65b3cbca3ea37"
     },
     "d8aca3508ee537c0f5b07c6652f2a771c9d7cddd728196669bfcba93b2e5eb2c": {
         "type": "rootkit",
         "family": "ROOTSTV",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "url": "https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/Steckbriefe-aktueller-Botnetze/Steckbriefe/Rootstv/rootstv_node.html",
         "sha256": "d8aca3508ee537c0f5b07c6652f2a771c9d7cddd728196669bfcba93b2e5eb2c"
     },
     "3327c2a0765817e7c2d5787c1889a9dc9abea9593077b8fb217161de499374bf": {
         "type": "rootkit",
         "family": "ROOTSTV",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "url": "https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/Steckbriefe-aktueller-Botnetze/Steckbriefe/Rootstv/rootstv_node.html",
         "sha256": "3327c2a0765817e7c2d5787c1889a9dc9abea9593077b8fb217161de499374bf"
     },
     "fd1a4d039bbf641f9b063d83e98b47493b9624793f60f3ba3761cd1c12472e0b": {
         "type": "rootkit",
         "family": "ROOTSTV",
-        "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/android-based-smart-tvs-hit-by-backdoor-spread-via-malicious-app/",
+        "url": "https://www.bsi.bund.de/EN/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Botnetze/Steckbriefe-aktueller-Botnetze/Steckbriefe/Rootstv/rootstv_node.html",
         "sha256": "fd1a4d039bbf641f9b063d83e98b47493b9624793f60f3ba3761cd1c12472e0b"
     },
     "b4822eeb71c83e4aab5ddfecfb58459e5c5e10d382a2364da1c42621f58e119b": {
@@ -1194,7 +1194,7 @@
         "sha256": "b4822eeb71c83e4aab5ddfecfb58459e5c5e10d382a2364da1c42621f58e119b"
     },
     "364a50a23c2b11cd2007d7ee079fce5899c47f3c511b70933e0893cf2bcd21fc": {
-        "type": "rootkit",
+        "type": "trojan",
         "family": "Ztorg",
         "url": "https://securelist.com/ztorg-from-rooting-to-sms/78775/",
         "sha256": "364a50a23c2b11cd2007d7ee079fce5899c47f3c511b70933e0893cf2bcd21fc"
@@ -1236,7 +1236,7 @@
         "sha256": "1c32dcfc1eac9b34b181da2e3f7d7048df3910b022181e7ef07f1a32e9bb9557"
     },
     "256285d5b9df3470f91f3c4efb4dce8fe80d91500c382153c8c23d9a62dcfe0e": {
-        "type": "rootkit",
+        "type": "trojan",
         "family": "Ztorg",
         "url": "https://securelist.com/ztorg-money-for-infecting-your-smartphone/78325/",
         "sha256": "256285d5b9df3470f91f3c4efb4dce8fe80d91500c382153c8c23d9a62dcfe0e"
