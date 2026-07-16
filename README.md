@@ -39,9 +39,14 @@ MalEval/
 
 ## Environment
 
-Use Python 3.10 or newer. The core scripts require common Python packages used
-for Android static analysis and LLM calls, including `androguard`, `openai`,
-`pyyaml`, `tqdm`, `pandas`, and `scikit-learn`.
+Use Python 3.10 or newer. We recommend a fresh virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
+```
 
 Configure model providers in `model_registry.yaml` before running LLM-based
 stages. Each model entry can store either literal values, such as `api_key` and
