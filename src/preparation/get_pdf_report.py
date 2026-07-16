@@ -24,7 +24,7 @@ SRC_ROOT = Path(__file__).resolve().parents[1]
 if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
-from utils import make_doc_id
+from utils import get_sample_info_path, make_doc_id, normalize_report_url
 from prompts.extraction_prompt import EXTRACTION_PROMPT_TEMPLATE
 
 # Global configuration
@@ -107,6 +107,7 @@ class ReportExtractor:
         model: Optional[str] = None,
         use_images: bool = True,
         max_pages_per_request: int = MAX_PAGES_PER_REQUEST,
+        require_api_key: bool = True,
     ):
         """
         Initialize the ReportExtractor.
@@ -121,7 +122,10 @@ class ReportExtractor:
         self.model = model or os.getenv("OPENAI_MODEL", "gpt-5")
         self.use_images = use_images
         self.max_pages_per_request = max_pages_per_request
-        self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        api_key = os.getenv("OPENAI_API_KEY")
+        if require_api_key and not api_key:
+            raise RuntimeError("OPENAI_API_KEY is required for report extraction.")
+        self.client = OpenAI(api_key=api_key) if api_key else None
         self.output_root = OUTPUT_ROOT
     
     def fetch_html(self, url: str) -> str:
@@ -986,9 +990,8 @@ def _lookup_family_and_type(url: str) -> Tuple[Optional[str], Optional[str]]:
     Returns:
         Tuple of (family_name, type_name) or (None, None) if not found
     """
-    project_root = Path(__file__).resolve().parent
-    archived_path = project_root / "archived_sample_info.json"
-    latest_path = project_root / "latest_sample_info.json"
+    archived_path = Path(get_sample_info_path("malradar"))
+    latest_path = Path(get_sample_info_path("new"))
     
     for json_path in [archived_path, latest_path]:
         if not json_path.exists():
@@ -1001,8 +1004,8 @@ def _lookup_family_and_type(url: str) -> Tuple[Optional[str], Optional[str]]:
                 sample_url = meta.get("url")
                 if sample_url and isinstance(sample_url, str):
                     # Normalize URLs for comparison (remove trailing slashes, etc.)
-                    normalized_sample_url = sample_url.strip().rstrip("/")
-                    normalized_input_url = url.strip().rstrip("/")
+                    normalized_sample_url = normalize_report_url(sample_url)
+                    normalized_input_url = normalize_report_url(url)
                     if normalized_sample_url == normalized_input_url:
                         family = meta.get("family")
                         type_name = meta.get("type")
@@ -1073,8 +1076,8 @@ def main() -> None:
         extractor.process_report(url=single_url, output_dir=out_dir, malware_name=None, analyze=True)
         return
 
-    archived = Path(__file__).resolve().parent / "archived_sample_info.json"
-    latest = Path(__file__).resolve().parent / "latest_sample_info.json"
+    archived = Path(get_sample_info_path("malradar"))
+    latest = Path(get_sample_info_path("new"))
 
     items = list(iter_reports_from_sources(archived, latest))
     print(f"Found {len(items)} unique report URLs from sources.")

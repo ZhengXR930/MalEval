@@ -20,7 +20,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from prompts import REPORT_QUALITY_SYSTEM_PROMPT
-from utils import get_path_dict, get_sample_info_path, make_doc_id
+from utils import get_path_dict, get_sample_info_path, resolve_report_analysis_path
 
 
 path_dict = get_path_dict()
@@ -186,16 +186,15 @@ def evaluate_report_quality(
     if not url or not isinstance(url, str):
         raise ValueError(f"URL not found for {sha256} in sample info")
 
-    doc_id = make_doc_id(url)
+    gt_path, doc_id = resolve_report_analysis_path(gt_root, url)
 
     llm_path = report_root / report_model / folder_name / f"{sha256}.json"
-    gt_path = gt_root / doc_id / "analysis.json"
 
     if not llm_path.exists():
         raise FileNotFoundError(f"LLM report not found: {llm_path}")
 
-    if not gt_path.exists():
-        raise FileNotFoundError(f"GT report not found: {gt_path}")
+    if gt_path is None:
+        raise FileNotFoundError(f"GT report not found for URL {url}. Expected doc id: {doc_id}")
 
     with llm_path.open("r", encoding="utf-8") as f:
         llm_data = json.load(f)

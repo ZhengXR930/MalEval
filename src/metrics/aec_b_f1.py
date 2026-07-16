@@ -6,7 +6,7 @@ import argparse
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 import utils
-from utils import make_doc_id
+from utils import resolve_report_analysis_path
 
 
 EQUIVALENCE_CLASSES = {
@@ -370,10 +370,9 @@ def process_samples(sha_list, info_data, gt_folder, llm_root, model_name, folder
         if sha not in info_data:
             skipped += 1
             continue
-        doc_id = make_doc_id(info_data[sha]["url"])
-        gt_path = os.path.join(gt_folder, doc_id, "analysis.json")
+        gt_path, _ = resolve_report_analysis_path(gt_folder, info_data[sha]["url"])
         llm_path = os.path.join(llm_root, model_name, folder_name, f"{sha}.json")
-        if not os.path.exists(llm_path) or not os.path.exists(gt_path):
+        if gt_path is None or not os.path.exists(llm_path):
             skipped += 1
             continue
         try:

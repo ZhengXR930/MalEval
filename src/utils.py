@@ -2,7 +2,8 @@
 import os
 import json
 import hashlib
-from urllib.parse import urlsplit
+from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit
 
 
 try:
@@ -185,15 +186,75 @@ def check_file_exist(folder_name):
     ranked_apks.sort(key=lambda item: (item[0], item[1], item[2]))
     return [apk_name for _, _, apk_name in ranked_apks]
 
-def make_doc_id(url: str) -> str:
-    """Map a report URL to the stable doc folder name used under result/reports."""
+def _report_doc_prefix(url: str) -> str:
     s = urlsplit(url)
     domain = s.netloc.lower()
     if domain.startswith("www."):
         domain = domain[4:]
-    
+
     path = (s.path or "/").strip("/").replace("/", "-")
     path = path[:40] if path else "root"
-    
-    h = hashlib.sha256(url.encode("utf-8")).hexdigest()[:8] 
-    return f"{domain}.{path}.{h}"
+
+    return f"{domain}.{path}"
+
+
+def make_doc_id(url: str) -> str:
+    """Map a report URL to the stable report folder name."""
+    url = url.strip()
+    h = hashlib.sha256(url.encode("utf-8")).hexdigest()[:8]
+    return f"{_report_doc_prefix(url)}.{h}"
+
+
+def normalize_report_url(url: str, *, drop_query: bool = False, drop_fragment: bool = True) -> str:
+    s = urlsplit(url.strip())
+    scheme = (s.scheme or "https").lower()
+    netloc = s.netloc.lower()
+    path = s.path or "/"
+    if path != "/":
+        path = path.rstrip("/")
+    query = "" if drop_query else s.query
+    fragment = "" if drop_fragment else s.fragment
+    return urlunsplit((scheme, netloc, path, query, fragment))
+
+
+def report_doc_id_candidates(url: str) -> list[str]:
+    variants = [
+        url,
+        url.strip(),
+        normalize_report_url(url, drop_fragment=False),
+        normalize_report_url(url, drop_fragment=True),
+        normalize_report_url(url, drop_query=True, drop_fragment=True),
+    ]
+
+    candidates = []
+    seen = set()
+    for variant in variants:
+        if not variant:
+            continue
+        doc_id = make_doc_id(variant)
+        if doc_id not in seen:
+            candidates.append(doc_id)
+            seen.add(doc_id)
+    return candidates
+
+
+def resolve_report_analysis_path(reports_root, url: str):
+    reports_root = Path(reports_root)
+    fallback_doc_id = report_doc_id_candidates(url)[0]
+    if not reports_root.exists():
+        return None, fallback_doc_id
+
+    for doc_id in report_doc_id_candidates(url):
+        analysis_path = reports_root / doc_id / "analysis.json"
+        if analysis_path.exists():
+            return analysis_path, doc_id
+
+    prefix = _report_doc_prefix(normalize_report_url(url, drop_query=True, drop_fragment=True))
+    matches = sorted(
+        p for p in reports_root.iterdir()
+        if p.is_dir() and p.name.startswith(f"{prefix}.") and (p / "analysis.json").exists()
+    )
+    if matches:
+        return matches[0] / "analysis.json", matches[0].name
+
+    return None, fallback_doc_id
