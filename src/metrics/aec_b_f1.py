@@ -421,7 +421,6 @@ def parse_args():
             "topk_removal_no_context",
             "topk_removal_meta",
             "raw_code",
-            "slicing",
         ],
         help="Behavior report setting to evaluate.",
     )

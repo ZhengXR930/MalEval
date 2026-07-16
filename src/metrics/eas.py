@@ -436,9 +436,8 @@ if __name__ == "__main__":
     args = parse_args()
     path_dict = utils.get_path_dict()
 
-    # NOTE: EAS depends on `context_summary` (function summaries). For raw_code/slicing
-    # reports, you can still evaluate, but it requires that the report's `support_functions`
-    # refer to entries present in `context_summary`.
+    # NOTE: EAS depends on `context_summary` (function summaries). For raw-code
+    # reports, support_functions must refer to entries present in `context_summary`.
     apk_list = utils.check_file_exist(args.split)
     evidence_correctness = EvidenceCorrectness(
         path_dict, args.model, args.split, judge_model=args.judge_model, max_workers=args.max_workers

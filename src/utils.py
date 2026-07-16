@@ -52,11 +52,9 @@ path_dict = {
     "no_context_behavior": f"{result_folder}/no_context_behavior",
     "topk_removal_no_context_behavior": f"{result_folder}/topk_removal_no_context_behavior",
     "raw_code_behavior": f"{result_folder}/raw_code_behavior",
-    "slicing_behavior": f"{result_folder}/slicing_behavior",
 
     "meta_info": f"{result_folder}/meta_info",
     "reports": f"{artifact_folder}/reports",
-    "lamd_dataset": os.path.join(REPO_ROOT, "lamd-processed-dataset"),
     }
 
 
@@ -127,7 +125,6 @@ def create_folder():
         "no_context_behavior",
         "topk_removal_no_context_behavior",
         "raw_code_behavior",
-        "slicing_behavior",
         "meta_info",
         "reports",
     ]

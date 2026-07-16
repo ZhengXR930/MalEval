@@ -36,15 +36,6 @@ def get_indexed_apk_list(folder_name: str) -> List[str]:
     return sorted(load_gt_info(folder_name).keys())
 
 
-def get_lamd_split_dir(folder_name: str) -> Optional[str]:
-    mapping = {
-        "new": "new_malware",
-        "malradar": "selected_malradar",
-        "benign": "selected_benign",
-    }
-    return mapping.get(folder_name)
-
-
 def collect_jsonl_apk_names(folder: Path) -> List[str]:
     if not folder.exists():
         return []
