@@ -1,0 +1,55 @@
+"""
+MalEval Prompts Package
+"""
+from .vocabularies import (
+    MALWARE_TYPES,
+    MALWARE_TYPES_SIMPLE,
+    BEHAVIOR_LABELS,
+    ACTIONS,
+    ASSETS,
+    TARGETS,
+)
+
+from .behavior_prompt import (
+    BEHAVIOR_SYSTEM_PROMPT,
+    BEHAVIOR_SYSTEM_PROMPT_WITHOUT_THINKING,
+)
+
+from .meta_behavior_prompt import (
+    META_BEHAVIOR_SYSTEM_PROMPT,
+    META_BEHAVIOR_SYSTEM_PROMPT_WITHOUT_THINKING,
+)
+
+from .metrics_prompts import (
+    EAS_SYSTEM_PROMPT,
+    REPORT_QUALITY_SYSTEM_PROMPT,
+)
+
+from .preparation_prompts import (
+    CONTEXT_SUMMARY_SYSTEM_PROMPT,
+    NO_CONTEXT_SUMMARY_SYSTEM_PROMPT,
+    SINGLE_FUNC_SUMMARY_SYSTEM_PROMPT,
+)
+
+__all__ = [
+    # Vocabularies
+    "MALWARE_TYPES",
+    "MALWARE_TYPES_SIMPLE",
+    "BEHAVIOR_LABELS",
+    "ACTIONS",
+    "ASSETS",
+    "TARGETS",
+    # Behavior prompts
+    "BEHAVIOR_SYSTEM_PROMPT",
+    "BEHAVIOR_SYSTEM_PROMPT_WITHOUT_THINKING",
+    # Meta behavior prompts
+    "META_BEHAVIOR_SYSTEM_PROMPT",
+    "META_BEHAVIOR_SYSTEM_PROMPT_WITHOUT_THINKING",
+    # Metrics prompts
+    "EAS_SYSTEM_PROMPT",
+    "REPORT_QUALITY_SYSTEM_PROMPT",
+    # Preparation prompts
+    "CONTEXT_SUMMARY_SYSTEM_PROMPT",
+    "NO_CONTEXT_SUMMARY_SYSTEM_PROMPT",
+    "SINGLE_FUNC_SUMMARY_SYSTEM_PROMPT",
+]

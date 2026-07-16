@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Large released data and images are hosted separately.
+artifacts/
+artifacts.zip
+release_parts/
+*.tar
+*.tar.gz
+*.zip
+
+# Local outputs.
+results/
+logs/
