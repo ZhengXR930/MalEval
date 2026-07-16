@@ -138,7 +138,6 @@ class SingleFuncSummary:
                         continue
                     try:
                         summary_obj = json.loads(line)
-                        # Add the function name to our set of completed tasks
                         if "function" in summary_obj and summary_obj["summary"] != "None":
                             processed_functions.add(summary_obj["function"])
                     except json.JSONDecodeError:
@@ -159,7 +158,7 @@ class SingleFuncSummary:
             f"Summarizing {len(tasks_to_process)} new functions.")
 
         with ThreadPoolExecutor(max_workers=self.max_workers_funcs) as ex, \
-            open(output_path, "a", encoding="utf-8") as fout: # Use "a" (append) instead of "w" (write)
+            open(output_path, "a", encoding="utf-8") as fout:
 
             futures = [ex.submit(self._summarize_one, fn, src) for fn, src in tasks_to_process]
 
@@ -314,6 +313,5 @@ if __name__ == "__main__":
     else:
         apk_list = utils.check_file_exist(args.folder)
         functionality_summary.get_single_func_summary(apk_list)
-
 
 

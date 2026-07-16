@@ -126,7 +126,6 @@ def get_qwen_tokenizer():
     return QWEN_TOKENIZER
 
 def init_tokenizers():
-    """Legacy function for backward compatibility"""
     get_qwen_tokenizer()
 
 
@@ -274,8 +273,6 @@ def call_deepseek(user_message: str, system_prompt: str) -> str:
     final_user_message = user_message
 
     if total_prompt_tokens_len > MAX_PROMPT_TOKENS:
-        # print(f"\n[!] Warning: Total prompt tokens ({total_prompt_tokens_len}) exceed the limit ({MAX_PROMPT_TOKENS}).")
-        
         user_message_token_budget = MAX_PROMPT_TOKENS - len(system_prompt_tokens)
         
         if user_message_token_budget <= 0:
@@ -570,8 +567,6 @@ def call_claude(user_message: str,
             raise ValueError("System prompt + context too long, no space left for user message.")
         truncated_user_tokens = user_message_tokens[:user_message_token_budget]
         final_user_message = encoding.decode(truncated_user_tokens)
-        # print(f"[Claude] Truncated user message from {len(user_message)} chars "
-            #   f"to {len(final_user_message)} chars (approx. {len(truncated_user_tokens)} tokens).")
         total_prompt_tokens_len = len(system_prompt_tokens) + len(truncated_user_tokens)
 
     available_for_completion = TOKEN_LIMIT - total_prompt_tokens_len - SAFETY_MARGIN

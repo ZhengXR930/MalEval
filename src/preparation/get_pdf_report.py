@@ -1056,14 +1056,11 @@ def iter_reports_from_sources(*paths: Path) -> Iterable[Tuple[str, Optional[str]
 def main() -> None:
     """
     Usage:
-      python get_pdf_report.py               # batch all URLs in both JSON files
-      python get_pdf_report.py <url>         # process a single URL
+      python get_pdf_report.py
+      python get_pdf_report.py <url>
     """
     single_url = sys.argv[1].strip() if len(sys.argv) > 1 else None
 
-    # Stage 1 (default): only render PDFs and images, no LLM calls.
-    # If you later want to enable analysis, call process_report(..., analyze=True)
-    # and initialize ReportExtractor with require_api_key=True.
     extractor = ReportExtractor(
         use_images=True,
         max_pages_per_request=MAX_PAGES_PER_REQUEST,
@@ -1092,18 +1089,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    # main()
-    
-    # doc_id = "blog.lookout.com.commercial-surveillanceware-operators-la.5ccd0e33"
-    url = "https://www.trendmicro.com/en_us/research/19/f/mobile-cyberespionage-campaign-bouncing-golf-affects-middle-east.html#"
-    # doc_id = "mcafee.com.blogs-other-blogs-mcafee-labs-leakerlock.721f6ba3"
-    doc_id = make_doc_id(url)
-    print(f"doc_id: {doc_id}")
-    # out_dir = OUTPUT_ROOT / doc_id
-    # extractor = ReportExtractor(
-    #     use_images=True,
-    #     max_pages_per_request=MAX_PAGES_PER_REQUEST,
-    #     require_api_key=True,
-    # )
-    # # extractor.pdf_to_images(str(out_dir / "report.pdf"), out_dir / "images")
-    # extractor.process_report(url=url, output_dir=out_dir, malware_name=None, analyze=True)
+    main()

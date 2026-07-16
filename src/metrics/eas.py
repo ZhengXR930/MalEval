@@ -445,6 +445,3 @@ if __name__ == "__main__":
     )
     results, avg = evidence_correctness.evaluate_multiple_apks(apk_list, args.flag)
     print(f"Average score: {avg} for {args.model}_{args.flag}_{args.split}")
-
-    # Compute std across all evaluators
-    # summary = compute_all_eas_std(path_dict)

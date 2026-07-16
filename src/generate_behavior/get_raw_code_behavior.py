@@ -351,7 +351,7 @@ Important:
         if output_path.exists() and not self.force:
             return None
         if verbose:
-            print(f"[single-apk] {apk_name}: 开始构造 query")
+            print(f"[single-apk] {apk_name}: building query")
         query, input_stats = self._build_query(apk_name)
         if verbose:
             query_tokens = count_tokens(query, self.model_name)
@@ -360,13 +360,13 @@ Important:
                 self.model_name,
             ) + query_tokens
             print(
-                f"[single-apk] {apk_name}: query token 数 user={query_tokens}, total_prompt={total_prompt_tokens}"
+                f"[single-apk] {apk_name}: query tokens user={query_tokens}, total_prompt={total_prompt_tokens}"
             )
 
         generation_start = time.perf_counter()
         llm_client = get_llm_client(model=self.model_name)
         if verbose:
-            print(f"[single-apk] {apk_name}: 开始调用 LLM")
+            print(f"[single-apk] {apk_name}: calling LLM")
         result, final_user_message = llm_client(query, RAW_CODE_BEHAVIOR_SYSTEM_PROMPT_WITHOUT_THINKING)
         if result is None or not isinstance(result, dict):
             print(f"[Warning] Invalid result for {apk_name}: {type(result)}")

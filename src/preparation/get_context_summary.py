@@ -58,7 +58,6 @@ class ContextFuncSummary:
                 caller_summary = {}
                 for caller, caller_src in zip(caller_name, caller_src):
                     if 'Failed to decompile' in caller_src:
-                        # print(f"Failed to decompile: {caller}")
                         continue
                     if caller not in func_to_summary:
                         print(f"caller not in func_to_summary: {caller}")
@@ -74,7 +73,6 @@ class ContextFuncSummary:
                 callee_summary = {}
                 for callee, callee_src in zip(callee_name, callee_src):
                     if 'Failed to decompile' in callee_src:
-                        # print(f"Failed to decompile: {callee}")
                         continue
                     if callee not in func_to_summary:
                         print(f"callee not in func_to_summary: {callee}")
@@ -113,12 +111,10 @@ class ContextFuncSummary:
             ""
         ]
 
-        # --- Caller Information ---
         prompt_parts.append("### Context: Callers (Functions that call this function)")
         if not callers:
             prompt_parts.append("- None provided.")
         else:
-            # Using a more readable list format
             caller_details = []
             for caller in callers:
                 caller_details.append(
@@ -128,7 +124,6 @@ class ContextFuncSummary:
             prompt_parts.append("\n".join(caller_details))
         prompt_parts.append("")
 
-        # --- Callee Information ---
         prompt_parts.append("### Context: Callees (Functions called by this function)")
         if not callees:
             prompt_parts.append("- None provided.")
@@ -142,7 +137,6 @@ class ContextFuncSummary:
             prompt_parts.append("\n".join(callee_details))
         prompt_parts.append("")
 
-        # --- Final Instruction ---
         prompt_parts.append("---")
         prompt_parts.append("Based on all the information above (the function's own code and the context from its callers and callees), provide your analysis in the required JSON format.")
 
