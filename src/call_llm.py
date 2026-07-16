@@ -3,9 +3,15 @@ from openai import OpenAI as OpenAIClient
 import re
 import json
 import os
+from pathlib import Path
 import tiktoken
 import requests
 from typing import Any
+
+try:
+    import yaml
+except ModuleNotFoundError:
+    yaml = None
 
 try:
     from transformers import AutoTokenizer
@@ -22,24 +28,68 @@ except ModuleNotFoundError:
     HarmBlockThreshold = None
     aiplatform = None
 
+def _load_model_registry() -> dict:
+    repo_root = Path(__file__).resolve().parents[1]
+    registry_path = Path(os.getenv("MALEVAL_MODEL_REGISTRY", repo_root / "model_registry.yaml"))
+    if not registry_path.exists():
+        return {}
+    if yaml is None:
+        raise ModuleNotFoundError(
+            "PyYAML is required to read model_registry.yaml. Install pyyaml or use environment variables only."
+        )
+    with registry_path.open("r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    return data.get("models", {})
+
+
+def _registry_value(registry: dict, model_name: str, field: str, env_field: str | None = None, default=None):
+    config = registry.get(model_name, {})
+    env_name = config.get(env_field or f"{field}_env")
+    if env_name and os.getenv(env_name):
+        return os.getenv(env_name)
+    if field in config and config[field] not in (None, ""):
+        return config[field]
+    return default
+
+
 class APIConfig:
     def __init__(self):
-        self.hf_token = os.getenv("HF_TOKEN")
-        self.openai_api_key = os.getenv("OPENAI_API_KEY")
-        self.openai_base_url = os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1")
-        self.openai_model = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
-        self.qwen3_api_key = os.getenv("QWEN3_API_KEY")
-        self.deepseek_api_key = os.getenv("DEEPSEEK_API_KEY")
-        self.deepseek_base_url = os.getenv("DEEPSEEK_BASE_URL")
-        self.anthropic_api_key = os.getenv("ANTHROPIC_API_KEY")
-        self.anthropic_base_url = os.getenv("ANTHROPIC_BASE_URL")
-        self.gemini_api_key = os.getenv("GEMINI_API_KEY")
-        self.gemini_project = os.getenv("GEMINI_PROJECT")
-        self.gemini_location = os.getenv("GEMINI_LOCATION")
+        self.registry = _load_model_registry()
+        self.hf_token = (
+            _registry_value(self.registry, "qwen", "tokenizer_hf_token", "tokenizer_hf_token_env")
+            or _registry_value(self.registry, "coder", "tokenizer_hf_token", "tokenizer_hf_token_env")
+            or os.getenv("HF_TOKEN")
+        )
+        self.openai_api_key = _registry_value(self.registry, "gpt", "api_key", default=os.getenv("OPENAI_API_KEY"))
+        self.openai_base_url = _registry_value(
+            self.registry,
+            "gpt",
+            "base_url",
+            default=os.getenv("OPENAI_BASE_URL", "https://api.openai.com/v1"),
+        )
+        self.openai_model = _registry_value(self.registry, "gpt", "model", default=os.getenv("OPENAI_MODEL", "gpt-4o-mini"))
+        self.gpt5_model = _registry_value(self.registry, "gpt-5", "model", default="gpt-5")
+        self.qwen3_api_key = _registry_value(self.registry, "qwen", "api_key", default=os.getenv("QWEN3_API_KEY"))
+        self.qwen3_base_url = _registry_value(self.registry, "qwen", "base_url", default=self.openai_base_url)
+        self.qwen3_model = _registry_value(self.registry, "qwen", "model", default="Qwen/Qwen3-32B")
+        self.deepseek_api_key = _registry_value(self.registry, "deepseek", "api_key", default=os.getenv("DEEPSEEK_API_KEY"))
+        self.deepseek_base_url = _registry_value(self.registry, "deepseek", "base_url", default=os.getenv("DEEPSEEK_BASE_URL"))
+        self.deepseek_model = _registry_value(self.registry, "deepseek", "model", default="deepseek-reasoner")
+        self.anthropic_api_key = _registry_value(self.registry, "claude", "api_key", default=os.getenv("ANTHROPIC_API_KEY"))
+        self.anthropic_base_url = _registry_value(self.registry, "claude", "base_url", default=os.getenv("ANTHROPIC_BASE_URL"))
+        self.claude_model = _registry_value(self.registry, "claude", "model", default="claude-3-7-sonnet-20250219")
+        self.gemini_api_key = _registry_value(self.registry, "gemini", "api_key", default=os.getenv("GEMINI_API_KEY"))
+        self.gemini_project = _registry_value(self.registry, "gemini", "project", default=os.getenv("GEMINI_PROJECT"))
+        self.gemini_location = _registry_value(self.registry, "gemini", "location", default=os.getenv("GEMINI_LOCATION"))
+        self.gemini_model = _registry_value(self.registry, "gemini", "model", default="gemini-2.5-pro")
         self.local_api_key = os.getenv("LOCAL_API_KEY")
         self.local_base_url = os.getenv("LOCAL_BASE_URL")
-        self.huggingface_base_url = os.getenv("HUGGINGFACE_BASE_URL")
-        self.huggingface_api_key = os.getenv("HUGGINGFACE_API_KEY")
+        self.huggingface_base_url = _registry_value(self.registry, "llama", "base_url", default=os.getenv("HUGGINGFACE_BASE_URL"))
+        self.huggingface_api_key = _registry_value(self.registry, "llama", "api_key", default=os.getenv("HUGGINGFACE_API_KEY"))
+        self.llama_model = _registry_value(self.registry, "llama", "model", default="meta-llama/Llama-3.1-8B-Instruct")
+        self.coder_api_key = _registry_value(self.registry, "coder", "api_key", default=self.huggingface_api_key)
+        self.coder_base_url = _registry_value(self.registry, "coder", "base_url", default=self.huggingface_base_url)
+        self.coder_model = _registry_value(self.registry, "coder", "model", default="Qwen/Qwen2.5-Coder-14B-Instruct")
 
 api_config = APIConfig()
 
@@ -162,7 +212,7 @@ def call_llm_api(
 
 def call_qwen3(user_message, system_prompt) -> str:
     api_key = api_config.qwen3_api_key
-    base_url = api_config.openai_base_url
+    base_url = api_config.qwen3_base_url
 
     TOKEN_LIMIT = 40960
     RESERVED_FOR_COMPLETION = 4096
@@ -191,7 +241,7 @@ def call_qwen3(user_message, system_prompt) -> str:
     max_tokens = min(RESERVED_FOR_COMPLETION, max(1, available_for_completion))
 
     result = call_llm_api(
-        model="Qwen/Qwen3-32B",
+        model=api_config.qwen3_model,
         api_key=api_key,
         base_url=base_url,
         user_message=final_user_message,
@@ -240,7 +290,7 @@ def call_deepseek(user_message: str, system_prompt: str) -> str:
     max_tokens = min(RESERVED_FOR_COMPLETION, max(1, available_for_completion))
 
     result = call_llm_api(
-            model="deepseek-reasoner",
+            model=api_config.deepseek_model,
             api_key=api_key,
             base_url=base_url,
             user_message=final_user_message, 
@@ -292,7 +342,7 @@ def call_llama(user_message: str, system_prompt: str) -> str:
     max_tokens = min(RESERVED_FOR_COMPLETION, max(1, available_for_completion))
 
     result = call_llm_api(
-        model="meta-llama/Llama-3.1-8B-Instruct",
+        model=api_config.llama_model,
         api_key=api_key,
         base_url=base_url,
         user_message=final_user_message,
@@ -309,8 +359,8 @@ def call_llama(user_message: str, system_prompt: str) -> str:
 
 
 def call_coder(user_message: str, system_prompt: str) -> str:
-    api_key = api_config.huggingface_api_key
-    base_url = api_config.huggingface_base_url
+    api_key = api_config.coder_api_key
+    base_url = api_config.coder_base_url
     
     TOKEN_LIMIT = 32768  
     RESERVED_FOR_COMPLETION = 4096
@@ -343,7 +393,7 @@ def call_coder(user_message: str, system_prompt: str) -> str:
     max_tokens = min(RESERVED_FOR_COMPLETION, max(1, available_for_completion))
 
     result = call_llm_api(
-        model="Qwen/Qwen2.5-Coder-14B-Instruct",
+        model=api_config.coder_model,
         api_key=api_key,
         base_url=base_url,
         user_message=final_user_message,
@@ -406,7 +456,7 @@ def call_gpt(user_message: str, system_prompt: str) -> str:
 
 
 def call_gpt5(user_message: str, system_prompt: str) -> str:
-    return _call_openai_model(user_message, system_prompt, "gpt-5")
+    return _call_openai_model(user_message, system_prompt, api_config.gpt5_model)
 
 
 def call_gemini(user_message: str, system_prompt: str) -> str:
@@ -450,7 +500,7 @@ def call_gemini(user_message: str, system_prompt: str) -> str:
     max_output_tokens = min(RESERVED_FOR_COMPLETION, max(1, available_for_completion))
 
     model = genai.GenerativeModel(
-            model_name="gemini-2.5-pro",
+            model_name=api_config.gemini_model,
             system_instruction=system_prompt,
         )
 
@@ -530,7 +580,7 @@ def call_claude(user_message: str,
     cache_control = {"type": "ephemeral"} if cache_control else None
 
     payload = {
-        "model": "claude-3-7-sonnet-20250219",
+        "model": api_config.claude_model,
         "max_tokens": max_tokens,
         "system": system_prompt,
         "messages": [

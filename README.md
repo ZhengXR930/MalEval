@@ -16,8 +16,9 @@ The released dataset is hosted separately at
 ## Repository Layout
 
 ```text
-info/   Sample metadata for the benign, MalRadar, and new malware splits.
-src/    Static analysis, summarization, behavior generation, and metrics code.
+info/                Sample metadata for the benign, MalRadar, and new malware splits.
+model_registry.yaml Model/provider configuration for LLM-based stages.
+src/                 Static analysis, summarization, behavior generation, and metrics code.
 ```
 
 The dataset should be extracted so that the repository has this layout:
@@ -40,16 +41,30 @@ MalEval/
 
 Use Python 3.10 or newer. The core scripts require common Python packages used
 for Android static analysis and LLM calls, including `androguard`, `openai`,
-`tqdm`, `pandas`, and `scikit-learn`.
+`pyyaml`, `tqdm`, `pandas`, and `scikit-learn`.
 
-Set API credentials before running LLM-based stages:
+Configure model providers in `model_registry.yaml` before running LLM-based
+stages. Each model entry can store either literal values, such as `api_key` and
+`base_url`, or environment-variable references, such as `api_key_env` and
+`base_url_env`.
 
-```bash
-export OPENAI_API_KEY=<your_key>
+Example:
+
+```yaml
+models:
+  gpt:
+    provider: openai
+    model: gpt-5
+    api_key: <your_openai_key>
+    base_url: https://api.openai.com/v1
 ```
 
-`src/call_llm.py` also supports provider-specific environment variables for the
-models used in the paper.
+The default registry includes entries for `gpt`, `gpt-5`, `qwen`, `deepseek`,
+`llama`, `coder`, `claude`, and `gemini`. If you prefer environment variables,
+set the variables referenced by `model_registry.yaml`, for example
+`OPENAI_API_KEY`, `DEEPSEEK_API_KEY`, `QWEN3_API_KEY`, `HUGGINGFACE_API_KEY`,
+`ANTHROPIC_API_KEY`, `GEMINI_API_KEY`, `GEMINI_PROJECT`, and
+`GEMINI_LOCATION`.
 
 ## From APK
 

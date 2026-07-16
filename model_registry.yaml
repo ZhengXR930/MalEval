@@ -1,0 +1,60 @@
+# MalEval model/provider configuration.
+#
+# Fill this file with the model IDs, base URLs, and API keys used by your
+# experiments. The committed defaults below use environment-variable names
+# instead of storing secrets directly. If you put real API keys in this file,
+# decide locally whether to keep it untracked or ignored.
+
+models:
+  gpt:
+    provider: openai
+    model: gpt-4o-mini
+    api_key_env: OPENAI_API_KEY
+    base_url_env: OPENAI_BASE_URL
+    base_url: https://api.openai.com/v1
+
+  gpt-5:
+    provider: openai
+    model: gpt-5
+    api_key_env: OPENAI_API_KEY
+    base_url_env: OPENAI_BASE_URL
+    base_url: https://api.openai.com/v1
+
+  qwen:
+    provider: openai-compatible
+    model: Qwen/Qwen3-32B
+    api_key_env: QWEN3_API_KEY
+    base_url_env: OPENAI_BASE_URL
+    tokenizer_hf_token_env: HF_TOKEN
+
+  deepseek:
+    provider: openai-compatible
+    model: deepseek-reasoner
+    api_key_env: DEEPSEEK_API_KEY
+    base_url_env: DEEPSEEK_BASE_URL
+
+  llama:
+    provider: openai-compatible
+    model: meta-llama/Llama-3.1-8B-Instruct
+    api_key_env: HUGGINGFACE_API_KEY
+    base_url_env: HUGGINGFACE_BASE_URL
+
+  coder:
+    provider: openai-compatible
+    model: Qwen/Qwen2.5-Coder-14B-Instruct
+    api_key_env: HUGGINGFACE_API_KEY
+    base_url_env: HUGGINGFACE_BASE_URL
+    tokenizer_hf_token_env: HF_TOKEN
+
+  claude:
+    provider: anthropic
+    model: claude-3-7-sonnet-20250219
+    api_key_env: ANTHROPIC_API_KEY
+    base_url_env: ANTHROPIC_BASE_URL
+
+  gemini:
+    provider: google
+    model: gemini-2.5-pro
+    api_key_env: GEMINI_API_KEY
+    project_env: GEMINI_PROJECT
+    location_env: GEMINI_LOCATION
