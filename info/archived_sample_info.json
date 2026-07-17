@@ -275,7 +275,7 @@
     "286cbb181204e3c67151766d3c4d969c13ef10350c57ebd71e8bb02423d15609": {
         "type": "ransomware",
         "family": "Locker",
-        "behavior": [],
+        "behavior": ["Ransom", "Remote Control", "SMS/CALL", "Stealthy Download"],
         "url": "https://www.fortinet.com/blog/threat-research/android-locker-malware-uses-google-cloud-messaging-service",
         "sha256": "286cbb181204e3c67151766d3c4d969c13ef10350c57ebd71e8bb02423d15609"
     },
@@ -310,7 +310,7 @@
     "728a6ea44aab94a2d0ebbccbf0c1b4a93fbd9efa8813c19a88d368d6a46b4f4f": {
         "type": "banker",
         "family": "Cerberus",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Bank Stealing", "Abusing Accessibility", "Stealthy Download", "Tricky Behavior"],
         "url": "https://www.threatfabric.com/blogs/cerberus-a-new-banking-trojan-from-the-underworld.html",
         "sha256": "728a6ea44aab94a2d0ebbccbf0c1b4a93fbd9efa8813c19a88d368d6a46b4f4f"
     },
@@ -324,14 +324,14 @@
     "ffa5ac3460998e7b9856fc136ebcd112196c3abf24816ccab1fbae11eae4954c": {
         "type": "banker",
         "family": "Cerberus",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Bank Stealing", "Abusing Accessibility", "Stealthy Download", "Tricky Behavior"],
         "url": "https://www.threatfabric.com/blogs/cerberus-a-new-banking-trojan-from-the-underworld.html",
         "sha256": "ffa5ac3460998e7b9856fc136ebcd112196c3abf24816ccab1fbae11eae4954c"
     },
     "3f2ed928789c200e21fd0c2095619a346f75d84f76f1e54a8b3153385850ea63": {
         "type": "banker",
         "family": "Cerberus",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Bank Stealing", "Abusing Accessibility", "Stealthy Download", "Tricky Behavior"],
         "url": "https://www.threatfabric.com/blogs/cerberus-a-new-banking-trojan-from-the-underworld.html",
         "sha256": "3f2ed928789c200e21fd0c2095619a346f75d84f76f1e54a8b3153385850ea63"
     },
@@ -401,7 +401,7 @@
     "3984c25dba94309a89f911ecd65df2e182e6430f3b0aec1efa11b6a9e58932b4": {
         "type": "spyware",
         "family": "GolfSpy",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Stealthy Download"],
         "url": "https://www.trendmicro.com/en_us/research/19/f/mobile-cyberespionage-campaign-bouncing-golf-affects-middle-east.html#",
         "sha256": "3984c25dba94309a89f911ecd65df2e182e6430f3b0aec1efa11b6a9e58932b4"
     },
@@ -499,35 +499,35 @@
     "92ea01d0198506d5a43e3cfccf7b2661c131c57e8d260fbf34760f01a897b0cb": {
         "type": "trojan",
         "family": "FraudBot",
-        "behavior": [],
+        "behavior": ["Ads", "Tricky Behavior", "Stealthy Download", "Privacy Stealing", "Remote Control"],
         "url": "https://www.trendmicro.com/en_us/research/18/k/fake-voice-apps-on-google-play-botnet-likely-in-development.html",
         "sha256": "92ea01d0198506d5a43e3cfccf7b2661c131c57e8d260fbf34760f01a897b0cb"
     },
     "3f7b367488e761f89b4adeb5dc1b961766c238d41ebb9fbd726da8499d1fce26": {
         "type": "trojan",
         "family": "FraudBot",
-        "behavior": [],
+        "behavior": ["Ads", "Tricky Behavior", "Stealthy Download", "Privacy Stealing", "Remote Control"],
         "url": "https://www.trendmicro.com/en_us/research/18/k/fake-voice-apps-on-google-play-botnet-likely-in-development.html",
         "sha256": "3f7b367488e761f89b4adeb5dc1b961766c238d41ebb9fbd726da8499d1fce26"
     },
     "9742148afe109e8ab25ec81f58aee8befed6be20affa7b2a71702a65d4bc377c": {
         "type": "trojan",
         "family": "FraudBot",
-        "behavior": [],
+        "behavior": ["Ads", "Tricky Behavior", "Stealthy Download", "Privacy Stealing", "Remote Control"],
         "url": "https://www.trendmicro.com/en_us/research/18/k/fake-voice-apps-on-google-play-botnet-likely-in-development.html",
         "sha256": "9742148afe109e8ab25ec81f58aee8befed6be20affa7b2a71702a65d4bc377c"
     },
     "7a4813f68936a37fce366154a608ad307084336abc205b55f80b0a6788d067ac": {
         "type": "trojan",
         "family": "FraudBot",
-        "behavior": [],
+        "behavior": ["Ads", "Tricky Behavior", "Stealthy Download", "Privacy Stealing", "Remote Control"],
         "url": "https://www.trendmicro.com/en_us/research/18/k/fake-voice-apps-on-google-play-botnet-likely-in-development.html",
         "sha256": "7a4813f68936a37fce366154a608ad307084336abc205b55f80b0a6788d067ac"
     },
     "00e82927b20d2db5bdfc6bff77f6841d0e59af80adce3f86f90277669159e5f3": {
         "type": "spyware",
         "family": "GolfSpy",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Stealthy Download"],
         "url": "https://www.trendmicro.com/en_us/research/19/f/mobile-cyberespionage-campaign-bouncing-golf-affects-middle-east.html#",
         "sha256": "00e82927b20d2db5bdfc6bff77f6841d0e59af80adce3f86f90277669159e5f3"
     },
@@ -548,14 +548,14 @@
     "61f73bf90c3234faeb8aa7c90f24fa3f7a3a1d38b2e94d40ce96a21e7320fd28": {
         "type": "ransomware",
         "family": "Filecoder",
-        "behavior": [],
+        "behavior": ["Ransom", "SMS/CALL", "Privacy Stealing", "Remote Control"],
         "url": "https://www.welivesecurity.com/2019/07/29/android-ransomware-back/",
         "sha256": "61f73bf90c3234faeb8aa7c90f24fa3f7a3a1d38b2e94d40ce96a21e7320fd28"
     },
     "fa9d1664ef9192b50228d7c21589f4fe9f3002faa503b39666a8a3bcd03ed635": {
         "type": "ransomware",
         "family": "Filecoder",
-        "behavior": [],
+        "behavior": ["Ransom", "SMS/CALL", "Privacy Stealing", "Remote Control"],
         "url": "https://www.welivesecurity.com/2019/07/29/android-ransomware-back/",
         "sha256": "fa9d1664ef9192b50228d7c21589f4fe9f3002faa503b39666a8a3bcd03ed635"
     },
@@ -576,14 +576,14 @@
     "2fedbe67d11b51a8a21ebc202caf00fb771e4c4be6dde24387b73d95ea2d9237": {
         "type": "banker",
         "family": "Anubis",
-        "behavior": [],
+        "behavior": ["Remote Control", "Stealthy Download", "Tricky Behavior", "Abusing Accessibility", "Bank Stealing", "Privacy Stealing", "SMS/CALL"],
         "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/google-play-apps-drop-anubis-banking-malware-use-motion-based-evasion-tactics/",
         "sha256": "2fedbe67d11b51a8a21ebc202caf00fb771e4c4be6dde24387b73d95ea2d9237"
     },
     "76c9d8226ce558c87c81236a9b95112b83c7b546863e29b88fec4dba5c720c0b": {
         "type": "banker",
         "family": "Rotexy",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Bank Stealing", "Ransom", "Stealthy Download", "Tricky Behavior"],
         "url": "https://securelist.com/the-rotexy-mobile-trojan-banker-and-ransomware/88893/",
         "sha256": "76c9d8226ce558c87c81236a9b95112b83c7b546863e29b88fec4dba5c720c0b"
     },
@@ -653,14 +653,14 @@
     "59d64fbff1e5a9ac1f8e29660ed9a76e5546ca07c2ff99fe56242fa43b5abec3": {
         "type": "trojan",
         "family": "MobOk",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Tricky Behavior"],
         "url": "https://gbhackers.com/mobok-malware-via-fake-photo-editing-apps/",
         "sha256": "59d64fbff1e5a9ac1f8e29660ed9a76e5546ca07c2ff99fe56242fa43b5abec3"
     },
     "d4406dee2c0e3e38a851cea6fd5c4283e98497a894ca14a58b27d33a89b5ed5f": {
         "type": "trojan",
         "family": "MobOk",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Tricky Behavior"],
         "url": "https://gbhackers.com/mobok-malware-via-fake-photo-editing-apps/",
         "sha256": "d4406dee2c0e3e38a851cea6fd5c4283e98497a894ca14a58b27d33a89b5ed5f"
     },
@@ -674,14 +674,14 @@
     "dbfab6e6fe3c2af3c8e23476b507eebed3cbe05633ab98fcb421ed156aa34236": {
         "type": "trojan",
         "family": "FakeApp",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Bank Stealing"],
         "url": "https://www.welivesecurity.com/2019/06/17/malware-google-permissions-2fa-bypass/",
         "sha256": "dbfab6e6fe3c2af3c8e23476b507eebed3cbe05633ab98fcb421ed156aa34236"
     },
     "9501ca777fcfcf723a67d1b0b79f5a1a16113c8027ed72e434017ed5eafe84ef": {
         "type": "trojan",
         "family": "FakeApp",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Bank Stealing"],
         "url": "https://www.welivesecurity.com/2019/06/17/malware-google-permissions-2fa-bypass/",
         "sha256": "9501ca777fcfcf723a67d1b0b79f5a1a16113c8027ed72e434017ed5eafe84ef"
     },
@@ -758,7 +758,7 @@
     "126547985987c3ecb1321a3a565d8565b64d437fd28418a6ba4bbc3220f684d2": {
         "type": "trojan",
         "family": "FakeApp",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Bank Stealing"],
         "url": "https://www.welivesecurity.com/2019/06/17/malware-google-permissions-2fa-bypass/",
         "sha256": "126547985987c3ecb1321a3a565d8565b64d437fd28418a6ba4bbc3220f684d2"
     },
@@ -884,7 +884,7 @@
     "000f9f1ce27a57be4db1a0700e680bf36871e2237f18416fe442de0084fa063b": {
         "type": "rootkit",
         "family": "Godless",
-        "behavior": [],
+        "behavior": ["Privilege Escalation", "Remote Control", "Stealthy Download", "Privacy Stealing", "Tricky Behavior"],
         "url": "https://www.whizlabs.com/blog/godless-android-malware/",
         "sha256": "000f9f1ce27a57be4db1a0700e680bf36871e2237f18416fe442de0084fa063b"
     },
@@ -940,7 +940,7 @@
     "d82330e1d84c2f866a0ff21093cb9669aaef2b07bf430541ab6182f98f6fdf82": {
         "type": "ransomware",
         "family": "LeakerLocker",
-        "behavior": [],
+        "behavior": ["Ransom", "Privacy Stealing", "SMS/CALL", "Remote Control", "Stealthy Download"],
         "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/leakerlocker-mobile-ransomware-acts-without-encryption/",
         "sha256": "d82330e1d84c2f866a0ff21093cb9669aaef2b07bf430541ab6182f98f6fdf82"
     },
@@ -1017,56 +1017,56 @@
     "3bf85d0aff5ddc0c57e43b879631ee692d98d01f5c964336471f1cdfe0d291f8": {
         "type": "spyware",
         "family": "CallerSpy",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Tricky Behavior"],
         "url": "https://www.trendmicro.com/en_us/research/19/l/mobile-cyberespionage-campaign-distributed-through-callerspy-mounts-initial-phase-of-a-targeted-attack.html",
         "sha256": "3bf85d0aff5ddc0c57e43b879631ee692d98d01f5c964336471f1cdfe0d291f8"
     },
     "2add88505e9050a1c9e5887a9d9b52be30068cc14bba002f40be15e0be307630": {
         "type": "banker",
         "family": "Ghimob",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "Remote Control", "Bank Stealing", "Abusing Accessibility", "Tricky Behavior"],
         "url": "https://securelist.com/ghimob-tetrade-threat-mobile-devices/99228/",
         "sha256": "2add88505e9050a1c9e5887a9d9b52be30068cc14bba002f40be15e0be307630"
     },
     "80c29c908818ebeec6d1f12e4c73019cbac7c8b3f5f06c43d6914242c21cb136": {
         "type": "banker",
         "family": "Ghimob",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "Remote Control", "Bank Stealing", "Abusing Accessibility", "Tricky Behavior"],
         "url": "https://securelist.com/ghimob-tetrade-threat-mobile-devices/99228/",
         "sha256": "80c29c908818ebeec6d1f12e4c73019cbac7c8b3f5f06c43d6914242c21cb136"
     },
     "b015c99ad510c766d7fed64aa18f1ff9a7321f062e9c6d2912144168897d166b": {
         "type": "banker",
         "family": "Ghimob",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "Remote Control", "Bank Stealing", "Abusing Accessibility", "Tricky Behavior"],
         "url": "https://securelist.com/ghimob-tetrade-threat-mobile-devices/99228/",
         "sha256": "b015c99ad510c766d7fed64aa18f1ff9a7321f062e9c6d2912144168897d166b"
     },
     "9d6d6f76410428bc4c457c96f5694606caab92dcaa7e709323fb9e66327cfbeb": {
         "type": "rootkit",
         "family": "Godless",
-        "behavior": [],
+        "behavior": ["Privilege Escalation", "Remote Control", "Stealthy Download", "Privacy Stealing", "Tricky Behavior"],
         "url": "https://www.whizlabs.com/blog/godless-android-malware/",
         "sha256": "9d6d6f76410428bc4c457c96f5694606caab92dcaa7e709323fb9e66327cfbeb"
     },
     "c5ca6aa73fdcb523b5e63b52197f134f229792046cbac525d46985ad72880395": {
         "type": "trojan",
         "family": "MobOk",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Tricky Behavior"],
         "url": "https://gbhackers.com/mobok-malware-via-fake-photo-editing-apps/",
         "sha256": "c5ca6aa73fdcb523b5e63b52197f134f229792046cbac525d46985ad72880395"
     },
     "0c4b08bec1251b1ebc715a7ef1a712cdcb4d37ce0093d88f7fa73b0e05bf7b0e": {
         "type": "spyware",
         "family": "CallerSpy",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Tricky Behavior"],
         "url": "https://www.trendmicro.com/en_us/research/19/l/mobile-cyberespionage-campaign-distributed-through-callerspy-mounts-initial-phase-of-a-targeted-attack.html",
         "sha256": "0c4b08bec1251b1ebc715a7ef1a712cdcb4d37ce0093d88f7fa73b0e05bf7b0e"
     },
     "7cb0eb93de496e2141b6e0541465ca71a84063867381085692885c75aa59cb1b": {
         "type": "spyware",
         "family": "CallerSpy",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Tricky Behavior"],
         "url": "https://www.trendmicro.com/en_us/research/19/l/mobile-cyberespionage-campaign-distributed-through-callerspy-mounts-initial-phase-of-a-targeted-attack.html",
         "sha256": "7cb0eb93de496e2141b6e0541465ca71a84063867381085692885c75aa59cb1b"
     },
@@ -1122,14 +1122,14 @@
     "299b3a90f96b3fc1a4e3eb29be44cb325bd6750228a9342773ce973849507d12": {
         "type": "ransomware",
         "family": "LeakerLocker",
-        "behavior": [],
+        "behavior": ["Ransom", "Privacy Stealing", "SMS/CALL", "Remote Control", "Stealthy Download"],
         "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/leakerlocker-mobile-ransomware-acts-without-encryption/",
         "sha256": "299b3a90f96b3fc1a4e3eb29be44cb325bd6750228a9342773ce973849507d12"
     },
     "486f80edfb1dea13cde87827b14491e93c189c26830b5350e31b07c787b29387": {
         "type": "ransomware",
         "family": "LeakerLocker",
-        "behavior": [],
+        "behavior": ["Ransom", "Privacy Stealing", "SMS/CALL", "Remote Control", "Stealthy Download"],
         "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/leakerlocker-mobile-ransomware-acts-without-encryption/",
         "sha256": "486f80edfb1dea13cde87827b14491e93c189c26830b5350e31b07c787b29387"
     },
@@ -1164,7 +1164,7 @@
     "4701a359647442d9b2d589cbba9ac7cf56949539410dbb4194d9980ec0d6b5d4": {
         "type": "ransomware",
         "family": "LeakerLocker",
-        "behavior": [],
+        "behavior": ["Ransom", "Privacy Stealing", "SMS/CALL", "Remote Control", "Stealthy Download"],
         "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/leakerlocker-mobile-ransomware-acts-without-encryption/",
         "sha256": "4701a359647442d9b2d589cbba9ac7cf56949539410dbb4194d9980ec0d6b5d4"
     },
@@ -1234,7 +1234,7 @@
     "b4822eeb71c83e4aab5ddfecfb58459e5c5e10d382a2364da1c42621f58e119b": {
         "type": "trojan",
         "family": "BKOTKLIND",
-        "behavior": [],
+        "behavior": ["Remote Control", "SMS/CALL", "Ads", "Premium Service", "Privacy Stealing", "Tricky Behavior"],
         "url": "https://www.trendmicro.com/en_us/research/18/a/first-kotlin-developed-malicious-app-signs-users-premium-sms-services.html",
         "sha256": "b4822eeb71c83e4aab5ddfecfb58459e5c5e10d382a2364da1c42621f58e119b"
     },
@@ -1255,7 +1255,7 @@
     "30bf493c79824a255f9b56db74a04e711a59257802f215187faffae9c6c2f8dc": {
         "type": "adware",
         "family": "Haken",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "Remote Control", "Ads"],
         "url": "https://gbhackers.com/malicious-app-haken-malware/",
         "sha256": "30bf493c79824a255f9b56db74a04e711a59257802f215187faffae9c6c2f8dc"
     },
@@ -1297,14 +1297,14 @@
     "a47049094051135631aea2c9954a6bc7e605ff455cd7ef1e0999042b068a841f": {
         "type": "adware",
         "family": "Haken",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "Remote Control", "Ads"],
         "url": "https://gbhackers.com/malicious-app-haken-malware/",
         "sha256": "a47049094051135631aea2c9954a6bc7e605ff455cd7ef1e0999042b068a841f"
     },
     "7f5c5a5f57650a44c10948926e107ba9e69b98d1cd1ad47af0696b6cccc08d13": {
         "type": "trojan",
         "family": "MobOk",
-        "behavior": [],
+        "behavior": ["Privacy Stealing", "SMS/CALL", "Remote Control", "Tricky Behavior"],
         "url": "https://gbhackers.com/mobok-malware-via-fake-photo-editing-apps/",
         "sha256": "7f5c5a5f57650a44c10948926e107ba9e69b98d1cd1ad47af0696b6cccc08d13"
     },
@@ -1374,14 +1374,14 @@
     "800d0de11cc1790a09ae1c224f5bf989d03fa121ad6485c17bd0bf207f967d5b": {
         "type": "adware",
         "family": "hiddad",
-        "behavior": [],
+        "behavior": ["Stealthy Download", "Tricky Behavior"],
         "url": "https://www.welivesecurity.com/2017/03/08/aggressive-ad-displaying-google-play-app-tricks-users-leaving-high-ratings/",
         "sha256": "800d0de11cc1790a09ae1c224f5bf989d03fa121ad6485c17bd0bf207f967d5b"
     },
     "8da47b68007fb11963d5eb9a428d21cace5908500fc2e56e15ab8269f375c2f4": {
         "type": "adware",
         "family": "hiddad",
-        "behavior": [],
+        "behavior": ["Stealthy Download", "Tricky Behavior"],
         "url": "https://www.welivesecurity.com/2017/03/08/aggressive-ad-displaying-google-play-app-tricks-users-leaving-high-ratings/",
         "sha256": "8da47b68007fb11963d5eb9a428d21cace5908500fc2e56e15ab8269f375c2f4"
     },
