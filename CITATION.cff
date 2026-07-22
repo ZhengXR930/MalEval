@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use MalEval, please cite the accompanying article and the versioned artifact."
+title: "MalEval: Reproduction Package for Fine-Grained Malware Behavior Auditing"
+type: software
+version: 1.0.0
+date-released: 2026-07-22
+repository-code: "https://github.com/ZhengXR930/MalEval"
+url: "https://huggingface.co/datasets/Xinzxr/MalEval"
+license: MIT
+authors:
+  - family-names: Zheng
+    given-names: Xinran
+    orcid: "https://orcid.org/0000-0003-1130-7916"
+  - family-names: Qian
+    given-names: Xingzhi
+    orcid: "https://orcid.org/0009-0005-6617-6521"
+  - family-names: He
+    given-names: Yiling
+    orcid: "https://orcid.org/0000-0002-5977-1489"
+  - family-names: Yang
+    given-names: Shuo
+    orcid: "https://orcid.org/0000-0003-1638-9623"
+  - family-names: Cavallaro
+    given-names: Lorenzo
+    orcid: "https://orcid.org/0000-0002-3878-2680"
+preferred-citation:
+  type: article
+  title: "Is “Knowing It’s Malicious” Enough? Evaluating LLMs for Fine-Grained Malware Behavior Auditing"
+  authors:
+    - family-names: Zheng
+      given-names: Xinran
+    - family-names: Qian
+      given-names: Xingzhi
+    - family-names: He
+      given-names: Yiling
+    - family-names: Yang
+      given-names: Shuo
+    - family-names: Cavallaro
+      given-names: Lorenzo
+  journal: "Proceedings of the ACM on Software Engineering"
+  year: 2026
+  doi: "10.1145/3832187"
