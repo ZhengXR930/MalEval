@@ -1,5 +1,12 @@
 # MalEval
 
+**Artifact version:** 1.0.0 (ISSTA 2026 camera-ready snapshot)
+
+**Article:** *Is “Knowing It’s Malicious” Enough? Evaluating LLMs for
+Fine-Grained Malware Behavior Auditing*
+
+**Article DOI:** [10.1145/3832187](https://doi.org/10.1145/3832187)
+
 MalEval is a framework for evaluating Android malware behavior reports generated
 by large language models. The code in this repository implements two execution
 paths:
@@ -10,14 +17,26 @@ paths:
    generate function summaries, context-intermediate representations, behavior
    reports, and evaluation metrics.
 
-The released dataset is hosted separately at
-`https://huggingface.co/datasets/Xinzxr/MalEval`.
+The released dataset is hosted separately in the
+[MalEval Hugging Face dataset repository](https://huggingface.co/datasets/Xinzxr/MalEval).
+For the camera-ready artifact, use the immutable dataset revision
+[`a5bd8d81116d2936a3edcd7eae5b26403aabdbd4`](https://huggingface.co/datasets/Xinzxr/MalEval/tree/a5bd8d81116d2936a3edcd7eae5b26403aabdbd4).
+The dataset consists of downloadable archives rather than a
+Hugging Face `datasets` table, so the Dataset Viewer is not required.
+
+The benchmark contains **255 Android applications**: 200 archived malware
+samples, 30 recent malware samples, and 25 benign applications used as
+simulated false positives. See [DATA.md](DATA.md) for the released files,
+provenance, rights, and safe-handling notes.
 
 ## Repository Layout
 
 ```text
 info/                Sample metadata for the benign, MalRadar, and new malware splits.
 model_registry.yaml Model/provider configuration for LLM-based stages.
+DATA.md              Dataset composition, provenance, and access instructions.
+LICENSE.txt          License scope and third-party-material exclusions.
+CITATION.cff         Machine-readable citation metadata.
 src/                 Static analysis, summarization, behavior generation, and metrics code.
 ```
 
@@ -166,3 +185,63 @@ python3 src/metrics/aec_b_f1.py --model "$model" --flag context
 python3 src/metrics/fpcr_tpmr_f1c.py --model "$model" --flag context
 python3 src/metrics/eas.py --model "$model" --flag context --split malradar --judge-model gpt-5
 ```
+
+## Minimal Verification
+
+The source tree can be checked without downloading APKs or configuring model
+credentials:
+
+```bash
+python3 -m compileall -q src
+python3 - <<'PY'
+import json
+from pathlib import Path
+
+expected = {
+    "archived_sample_info.json": 200,
+    "latest_sample_info.json": 30,
+    "benign_sample_info.json": 25,
+}
+for name, count in expected.items():
+    actual = len(json.loads((Path("info") / name).read_text()))
+    assert actual == count, (name, actual, count)
+print("metadata check passed: 200 archived malware + 30 recent malware + 25 benign")
+PY
+```
+
+## Reproducibility Scope
+
+- Metric computation over released reports does not require local model
+  inference hardware.
+- Regenerating LLM outputs requires the corresponding API credentials or a
+  compatible self-hosted endpoint.
+- Static analysis and all handling of APKs must take place in an isolated
+  research environment. Do not install or execute released samples on a
+  personal or production device.
+- Exact numerical reproduction can be affected by changes to hosted model
+  endpoints. The released reports preserve the outputs used by the paper.
+
+## Citation
+
+Please cite the accompanying article when using MalEval:
+
+```bibtex
+@article{zheng2026maleval,
+  author  = {Xinran Zheng and Xingzhi Qian and Yiling He and Shuo Yang and Lorenzo Cavallaro},
+  title   = {Is {“Knowing It’s Malicious”} Enough? Evaluating {LLMs} for Fine-Grained Malware Behavior Auditing},
+  journal = {Proceedings of the ACM on Software Engineering},
+  year    = {2026},
+  doi     = {10.1145/3832187}
+}
+```
+
+Machine-readable citation metadata is provided in [CITATION.cff](CITATION.cff).
+When the archival artifact DOI is assigned, it should be used to cite the
+versioned artifact snapshot in addition to the article.
+
+## License and Safety
+
+See [LICENSE.txt](LICENSE.txt) for the license applying to author-created code,
+documentation, metadata, annotations, and derived outputs. Raw APKs and other
+third-party materials are not relicensed by the MalEval authors. See
+[SECURITY.md](SECURITY.md) before handling malware-related files.
