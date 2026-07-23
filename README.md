@@ -1,7 +1,5 @@
 # MalEval
 
-**Artifact version:** 1.0.0 (ISSTA 2026 camera-ready snapshot)
-
 **Article:** *Is “Knowing It’s Malicious” Enough? Evaluating LLMs for
 Fine-Grained Malware Behavior Auditing*
 
@@ -19,10 +17,6 @@ paths:
 
 The released dataset is hosted separately in the
 [MalEval Hugging Face dataset repository](https://huggingface.co/datasets/Xinzxr/MalEval).
-For the camera-ready artifact, use the immutable dataset revision
-[`a5bd8d81116d2936a3edcd7eae5b26403aabdbd4`](https://huggingface.co/datasets/Xinzxr/MalEval/tree/a5bd8d81116d2936a3edcd7eae5b26403aabdbd4).
-The dataset consists of downloadable archives rather than a
-Hugging Face `datasets` table, so the Dataset Viewer is not required.
 
 The benchmark contains **255 Android applications**: 200 archived malware
 samples, 30 recent malware samples, and 25 benign applications used as
