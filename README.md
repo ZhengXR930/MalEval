@@ -215,27 +215,3 @@ PY
 - Exact numerical reproduction can be affected by changes to hosted model
   endpoints. The released reports preserve the outputs used by the paper.
 
-## Citation
-
-Please cite the accompanying article when using MalEval:
-
-```bibtex
-@article{zheng2026maleval,
-  author  = {Xinran Zheng and Xingzhi Qian and Yiling He and Shuo Yang and Lorenzo Cavallaro},
-  title   = {Is {“Knowing It’s Malicious”} Enough? Evaluating {LLMs} for Fine-Grained Malware Behavior Auditing},
-  journal = {Proceedings of the ACM on Software Engineering},
-  year    = {2026},
-  doi     = {10.1145/3832187}
-}
-```
-
-Machine-readable citation metadata is provided in [CITATION.cff](CITATION.cff).
-When the archival artifact DOI is assigned, it should be used to cite the
-versioned artifact snapshot in addition to the article.
-
-## License and Safety
-
-See [LICENSE.txt](LICENSE.txt) for the license applying to author-created code,
-documentation, metadata, annotations, and derived outputs. Raw APKs and other
-third-party materials are not relicensed by the MalEval authors. See
-[SECURITY.md](SECURITY.md) before handling malware-related files.
